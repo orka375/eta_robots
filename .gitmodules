@@ -11,3 +11,6 @@
 [submodule "Omron_AMR"]
 	path = Omron_AMR
 	url = https://github.com/OmronAPAC/Omron_AMR_ROS2.git
+[submodule "MIR"]
+	path = MIR
+	url = https://github.com/DFKI-NI/mir_robot.git
