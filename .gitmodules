@@ -8,7 +8,7 @@
 [submodule "Mecademic"]
 	path = Mecademic
 	url = https://github.com/orka375/mecademic-ros.git
-	branch = dd3816f
+	branch = dd3819f
 [submodule "Omron_AMR"]
 	path = Omron_AMR
 	url = https://github.com/orka375/Omron_AMR_ROS2.git
