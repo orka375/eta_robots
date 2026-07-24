@@ -14,3 +14,4 @@
 [submodule "MIR"]
 	path = MIR
 	url = https://github.com/DFKI-NI/mir_robot.git
+	branch = rolling
