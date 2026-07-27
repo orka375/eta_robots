@@ -15,7 +15,7 @@
 	url = https://github.com/orka375/mir_robot.git
 [submodule "andino"]
 	path = andino
-	url = https://github.com/Ekumen-OS/andino.git
+	url = https://github.com/orka375/andino.git
 [submodule "andino_gz"]
 	path = andino_gz
 	url = https://github.com/Ekumen-OS/andino_gz.git
