@@ -1,0 +1,1 @@
+actionlib_msgs;diagnostic_msgs;dynamic_reconfigure;geometry_msgs;mir_actions;mir_msgs;move_base_msgs;nav_msgs;python3-websocket;rosgraph_msgs;rospy;rospy_message_converter;sensor_msgs;std_msgs;tf;visualization_msgs;mir_description;robot_state_publisher

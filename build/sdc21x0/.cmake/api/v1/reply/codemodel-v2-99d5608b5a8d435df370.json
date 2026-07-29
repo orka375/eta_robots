@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3eab76634752ae312cb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "sdc21x0__py",
+					"jsonFile" : "directory-sdc21x0__py-08dc975fc61452b4bde5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/sdc21x0__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "sdc21x0__rs",
+					"jsonFile" : "directory-sdc21x0__rs-cde98e7f482816fa9d44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/sdc21x0__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "sdc21x0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sdc21x0_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sdc21x0_egg-3fa870dd0bea5ceadc6e.json",
+					"name" : "ament_cmake_python_build_sdc21x0_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sdc21x0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sdc21x0-7e4316e603354d2a96d1.json",
+					"name" : "ament_cmake_python_copy_sdc21x0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0-8c5082a48bdb9fb35b9f.json",
+					"name" : "sdc21x0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__cpp-4e72c55b40e160d920bf.json",
+					"name" : "sdc21x0__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdc21x0__py::@e864daca6c5c8732c198",
+					"jsonFile" : "target-sdc21x0__py-8777516af9edff602d98.json",
+					"name" : "sdc21x0__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_generator_c-bbed8df92fe986ab3ac6.json",
+					"name" : "sdc21x0__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_generator_py-e300e423d129a188cc0a.json",
+					"name" : "sdc21x0__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_generator_type_description-e033b6011a952b9ef067.json",
+					"name" : "sdc21x0__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_typesupport_c-314bf686014907f26828.json",
+					"name" : "sdc21x0__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_typesupport_cpp-f70a8c9bf9ab078c4712.json",
+					"name" : "sdc21x0__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_typesupport_fastrtps_c-fee828b127da09738eae.json",
+					"name" : "sdc21x0__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_typesupport_fastrtps_cpp-f15b4a24053a0d70c068.json",
+					"name" : "sdc21x0__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_typesupport_introspection_c-6dcd6e6649d204ce793d.json",
+					"name" : "sdc21x0__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0__rosidl_typesupport_introspection_cpp-08b9209a354fa692bcca.json",
+					"name" : "sdc21x0__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sdc21x0__rs::@be6985c1993ad43159cd",
+					"jsonFile" : "target-sdc21x0__rs-3ca16fd71922fe611215.json",
+					"name" : "sdc21x0__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0_s__rosidl_typesupport_c-35198b65bd4eac13f7c6.json",
+					"name" : "sdc21x0_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0_s__rosidl_typesupport_fastrtps_c-ef4c59eb7481b7a166ad.json",
+					"name" : "sdc21x0_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0_s__rosidl_typesupport_introspection_c-ba960b7a9928adf828d7.json",
+					"name" : "sdc21x0_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdc21x0_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdc21x0_uninstall-3629d1a5f9934cb22f30.json",
+					"name" : "sdc21x0_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6e3440fc70bfb9bb2f3f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0",
+		"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

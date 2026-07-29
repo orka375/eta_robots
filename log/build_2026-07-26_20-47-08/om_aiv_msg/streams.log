@@ -1,0 +1,32 @@
+[0.023s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg
+[0.194s] -- The C compiler identification is GNU 13.3.0
+[0.300s] -- The CXX compiler identification is GNU 13.3.0
+[0.314s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.392s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.461s] -- Configuring incomplete, errors occurred!
+[0.462s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.462s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.462s]   has asked CMake to find a package configuration file provided by
+[0.462s]   "ament_cmake", but CMake did not find one.
+[0.462s] 
+[0.462s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.462s]   any of the following names:
+[0.463s] 
+[0.463s]     ament_cmakeConfig.cmake
+[0.463s]     ament_cmake-config.cmake
+[0.463s] 
+[0.463s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.463s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.463s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.463s]   has been installed.
+[0.463s] 
+[0.463s] [0m
+[0.467s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg

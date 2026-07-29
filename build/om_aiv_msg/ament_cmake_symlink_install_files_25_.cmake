@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/om_aiv_msg/environment")

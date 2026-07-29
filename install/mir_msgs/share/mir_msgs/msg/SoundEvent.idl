@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/SoundEvent.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module mir_msgs {
+  module msg {
+    module SoundEvent_Constants {
+      const uint8 START = 0;
+      const uint8 STOP = 1;
+      const uint8 MUTE = 2;
+      const uint8 UNMUTE = 3;
+      const uint8 PAUSE = 4;
+      const uint8 UNPAUSE = 5;
+      const uint8 FINISH = 6;
+      const uint8 MUTEABLE = 7;
+      const uint8 REQ_PLAY = 10;
+    };
+    struct SoundEvent {
+      builtin_interfaces::msg::Time time_stamp;
+
+      string sound_guid;
+
+      string message;
+
+      uint8 event;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation -- -j14 -l14
+[0.172s] [ 12%] [32mBuilding CXX object CMakeFiles/laser_scans.dir/src/laser_scans.cpp.o[0m
+[0.173s] [ 25%] [32mBuilding CXX object CMakeFiles/data_points_marker.dir/src/data_points_marker.cpp.o[0m
+[0.174s] [ 50%] Built target joints_publisher
+[0.174s] [ 75%] Built target goals_marker
+[0.231s] In file included from [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/src/laser_scans.cpp:1[m[K:
+[0.232s] [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/include/amr_visualisation/laser_scans.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: No such file or directory
+[0.232s]     2 | #include [01;31m[K<ament_index_cpp/get_package_share_directory.hpp>[m[K
+[0.232s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.232s] compilation terminated.
+[0.241s] gmake[2]: *** [CMakeFiles/laser_scans.dir/build.make:76: CMakeFiles/laser_scans.dir/src/laser_scans.cpp.o] Error 1
+[0.241s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/laser_scans.dir/all] Error 2
+[0.241s] gmake[1]: *** Waiting for unfinished jobs....
+[0.247s] In file included from [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/src/data_points_marker.cpp:1[m[K:
+[0.247s] [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/include/amr_visualisation/data_points_marker.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: No such file or directory
+[0.247s]     2 | #include [01;31m[K<ament_index_cpp/get_package_share_directory.hpp>[m[K
+[0.247s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.247s] compilation terminated.
+[0.248s] gmake[2]: *** [CMakeFiles/data_points_marker.dir/build.make:76: CMakeFiles/data_points_marker.dir/src/data_points_marker.cpp.o] Error 1
+[0.248s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/data_points_marker.dir/all] Error 2
+[0.249s] gmake: *** [Makefile:146: all] Error 2
+[0.250s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation' returned '2': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation -- -j14 -l14

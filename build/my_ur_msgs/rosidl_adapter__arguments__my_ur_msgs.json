@@ -1,0 +1,6 @@
+{
+  "package_name": "my_ur_msgs",
+  "non_idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/my_ur_msgs:src/action/SendScript.action"
+  ]
+}

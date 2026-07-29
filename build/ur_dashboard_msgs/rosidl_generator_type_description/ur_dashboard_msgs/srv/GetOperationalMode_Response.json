@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/srv/GetOperationalMode_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "answer",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "operational_mode",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ur_dashboard_msgs/msg/OperationalMode"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ur_dashboard_msgs/msg/OperationalMode",
+        "fields": [
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/srv/GetOperationalMode_Response",
+      "hash_string": "RIHS01_cc9cbeb9e828f96a6eb1b4e2fe31a2ea5d7d93c57805db05e019b21d56e161a8"
+    },
+    {
+      "type_name": "ur_dashboard_msgs/msg/OperationalMode",
+      "hash_string": "RIHS01_8aef190ff9d8aa99df44a561cf4e312d83599272bf7979c2af0c53c8d1856a2f"
+    }
+  ]
+}

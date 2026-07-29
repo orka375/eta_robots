@@ -1,0 +1,2 @@
+source;share/meca500_bringup/environment/ament_prefix_path.sh
+source;share/meca500_bringup/environment/path.sh

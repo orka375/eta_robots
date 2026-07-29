@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sdc21x0__py",
+		"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/sdc21x0__py"
+	}
+}

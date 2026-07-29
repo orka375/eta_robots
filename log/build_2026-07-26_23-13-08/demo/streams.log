@@ -1,0 +1,6 @@
+[0.069s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/demo': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/demo -- -j14 -l14
+[0.170s] [ 33%] Built target execute_macro
+[0.170s] [ 66%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/demo_execute_macro.cpp.o[0m
+[0.170s] [ 83%] Built target get_macros
+[2.799s] [100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[2.916s] [100%] Built target action_client

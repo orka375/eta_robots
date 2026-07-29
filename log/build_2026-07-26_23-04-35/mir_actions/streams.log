@@ -1,0 +1,213 @@
+[0.036s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions -- -j14 -l14
+[0.338s] [  0%] Built target ament_cmake_python_copy_mir_actions
+[0.339s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.340s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.340s] running egg_info
+[0.340s] creating mir_actions.egg-info
+[0.340s] writing mir_actions.egg-info/PKG-INFO
+[0.340s] writing dependency_links to mir_actions.egg-info/dependency_links.txt
+[0.340s] writing top-level names to mir_actions.egg-info/top_level.txt
+[0.340s] writing manifest file 'mir_actions.egg-info/SOURCES.txt'
+[0.340s] reading manifest file 'mir_actions.egg-info/SOURCES.txt'
+[0.340s] writing manifest file 'mir_actions.egg-info/SOURCES.txt'
+[0.340s] [  5%] Built target ament_cmake_python_build_mir_actions_egg
+[0.470s] [  5%] Built target mir_actions__rosidl_generator_type_description
+[0.471s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.472s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.554s] [ 11%] Built target mir_actions__rs
+[1.031s] [ 11%] Built target mir_actions__cpp
+[1.055s] [ 17%] [32mBuilding C object CMakeFiles/mir_actions__rosidl_generator_c.dir/rosidl_generator_c/mir_actions/action/detail/mir_move_base__type_support.c.o[0m
+[1.056s] [ 17%] [32mBuilding C object CMakeFiles/mir_actions__rosidl_generator_c.dir/rosidl_generator_c/mir_actions/action/detail/mir_move_base__functions.c.o[0m
+[1.057s] [ 20%] [32mBuilding C object CMakeFiles/mir_actions__rosidl_generator_c.dir/rosidl_generator_c/mir_actions/action/detail/mir_move_base__description.c.o[0m
+[1.351s] [ 22%] [32m[1mLinking C shared library libmir_actions__rosidl_generator_c.so[0m
+[1.437s] [ 22%] Built target mir_actions__rosidl_generator_c
+[1.452s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.452s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.460s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.460s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.465s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.473s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.236s] [ 42%] [32mBuilding CXX object CMakeFiles/mir_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mir_actions/action/mir_move_base__type_support.cpp.o[0m
+[2.486s] [ 45%] [32mBuilding CXX object CMakeFiles/mir_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/mir_actions/action/mir_move_base__type_support.cpp.o[0m
+[2.546s] [ 48%] [32mBuilding CXX object CMakeFiles/mir_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mir_actions/action/detail/mir_move_base__type_support_c.cpp.o[0m
+[2.556s] [ 51%] [32mBuilding CXX object CMakeFiles/mir_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mir_actions/action/detail/mir_move_base__type_support.cpp.o[0m
+[2.569s] [ 54%] [32mBuilding CXX object CMakeFiles/mir_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mir_actions/action/detail/dds_fastrtps/mir_move_base__type_support.cpp.o[0m
+[2.585s] [ 57%] [32m[1mLinking CXX shared library libmir_actions__rosidl_typesupport_c.so[0m
+[2.610s] [ 60%] [32mBuilding C object CMakeFiles/mir_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mir_actions/action/detail/mir_move_base__type_support.c.o[0m
+[2.690s] [ 60%] Built target mir_actions__rosidl_typesupport_c
+[2.732s] [ 62%] [32m[1mLinking C shared library libmir_actions__rosidl_typesupport_introspection_c.so[0m
+[2.801s] [ 62%] Built target mir_actions__rosidl_typesupport_introspection_c
+[3.494s] [ 65%] [32m[1mLinking CXX shared library libmir_actions__rosidl_typesupport_fastrtps_c.so[0m
+[3.496s] [ 68%] [32m[1mLinking CXX shared library libmir_actions__rosidl_typesupport_introspection_cpp.so[0m
+[3.553s] [ 68%] Built target mir_actions__rosidl_typesupport_fastrtps_c
+[3.576s] [ 68%] Built target mir_actions__rosidl_typesupport_introspection_cpp
+[3.580s] [ 71%] [32m[1mLinking CXX shared library libmir_actions__rosidl_typesupport_cpp.so[0m
+[3.652s] [ 71%] Built target mir_actions__rosidl_typesupport_cpp
+[3.849s] [ 74%] [32m[1mLinking CXX shared library libmir_actions__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.933s] [ 74%] Built target mir_actions__rosidl_typesupport_fastrtps_cpp
+[3.969s] [ 74%] Built target mir_actions
+[3.987s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.775s] [ 77%] Built target mir_actions__py
+[4.813s] [ 80%] [32mBuilding C object CMakeFiles/mir_actions__rosidl_generator_py.dir/rosidl_generator_py/mir_actions/action/_mir_move_base_s.c.o[0m
+[5.124s] [ 82%] [32m[1mLinking C shared library libmir_actions__rosidl_generator_py.so[0m
+[5.200s] [ 82%] Built target mir_actions__rosidl_generator_py
+[5.221s] [ 85%] [32mBuilding C object CMakeFiles/mir_actions_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mir_actions/_mir_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.221s] [ 88%] [32mBuilding C object CMakeFiles/mir_actions_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mir_actions/_mir_actions_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.227s] [ 91%] [32mBuilding C object CMakeFiles/mir_actions_s__rosidl_typesupport_c.dir/rosidl_generator_py/mir_actions/_mir_actions_s.ep.rosidl_typesupport_c.c.o[0m
+[5.324s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/mir_actions/mir_actions_s__rosidl_typesupport_introspection_c.so[0m
+[5.325s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/mir_actions/mir_actions_s__rosidl_typesupport_c.so[0m
+[5.326s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mir_actions/mir_actions_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.353s] [100%] Built target mir_actions_s__rosidl_typesupport_c
+[5.365s] [100%] Built target mir_actions_s__rosidl_typesupport_fastrtps_c
+[5.366s] [100%] Built target mir_actions_s__rosidl_typesupport_introspection_c
+[5.384s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions -- -j14 -l14
+[5.385s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions
+[5.389s] -- Install configuration: ""
+[5.389s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/ament_index/resource_index/rosidl_interfaces/mir_actions
+[5.390s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/action/MirMoveBase.json
+[5.390s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions
+[5.391s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg
+[5.391s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg/rosidl_generator_c__visibility_control.h
+[5.391s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action
+[5.391s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/mir_move_base.h
+[5.391s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail
+[5.392s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__type_support.h
+[5.392s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__struct.h
+[5.392s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__functions.h
+[5.393s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__functions.c
+[5.393s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__type_support.c
+[5.394s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__description.c
+[5.394s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/library_path.sh
+[5.394s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/library_path.dsv
+[5.395s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_generator_c.so
+[5.396s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_generator_c.so" to ""
+[5.397s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions
+[5.397s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg
+[5.397s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.397s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action
+[5.397s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail
+[5.397s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__rosidl_typesupport_fastrtps_c.h
+[5.398s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_fastrtps_c.so
+[5.399s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_fastrtps_c.so" to ""
+[5.399s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions
+[5.400s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.401s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/mir_move_base.hpp
+[5.401s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__traits.hpp
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__struct.hpp
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__builder.hpp
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__type_support.hpp
+[5.401s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions
+[5.401s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.401s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action
+[5.401s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail
+[5.401s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__rosidl_typesupport_fastrtps_cpp.hpp
+[5.402s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/dds_fastrtps
+[5.402s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_fastrtps_cpp.so
+[5.402s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.402s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions
+[5.402s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg
+[5.403s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.403s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action
+[5.403s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail
+[5.403s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__type_support.c
+[5.403s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__rosidl_typesupport_introspection_c.h
+[5.404s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_introspection_c.so
+[5.404s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_introspection_c.so" to ""
+[5.404s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_c.so
+[5.406s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_c.so" to ""
+[5.406s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions
+[5.406s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action
+[5.406s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail
+[5.406s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__type_support.cpp
+[5.406s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/include/mir_actions/mir_actions/action/detail/mir_move_base__rosidl_typesupport_introspection_cpp.hpp
+[5.406s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_introspection_cpp.so
+[5.407s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_introspection_cpp.so" to ""
+[5.407s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_cpp.so
+[5.407s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_typesupport_cpp.so" to ""
+[5.407s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/pythonpath.sh
+[5.408s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/pythonpath.dsv
+[5.409s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions-1.1.3-py3.12.egg-info
+[5.409s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions-1.1.3-py3.12.egg-info/dependency_links.txt
+[5.410s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions-1.1.3-py3.12.egg-info/top_level.txt
+[5.410s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions-1.1.3-py3.12.egg-info/SOURCES.txt
+[5.410s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions-1.1.3-py3.12.egg-info/PKG-INFO
+[5.411s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions
+[5.411s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/_mir_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.412s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/__init__.py
+[5.412s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/_mir_actions_s.ep.rosidl_typesupport_introspection_c.c
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/_mir_actions_s.ep.rosidl_typesupport_c.c
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_introspection_c.so
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_fastrtps_c.so
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_c.so
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action/__init__.py
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action/_mir_move_base.py
+[5.413s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action/_mir_move_base_s.c
+[5.468s] Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions'...
+[5.468s] Compiling '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/__init__.py'...
+[5.468s] Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action'...
+[5.468s] Compiling '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action/__init__.py'...
+[5.468s] Compiling '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/action/_mir_move_base.py'...
+[5.475s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_fastrtps_c.so
+[5.475s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.476s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_introspection_c.so
+[5.480s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_introspection_c.so" to ""
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_c.so
+[5.480s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/python3.12/site-packages/mir_actions/mir_actions_s__rosidl_typesupport_c.so" to ""
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_generator_py.so
+[5.480s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/lib/libmir_actions__rosidl_generator_py.so" to ""
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/ament_index/resource_index/rust_packages/mir_actions
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/Cargo.toml
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/build.rs
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/src
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/src/action.rs
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/src/lib.rs
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/src/action
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/rust/src/action/rmw.rs
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/action/MirMoveBase.idl
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/action/MirMoveBase.action
+[5.480s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/ament_index/resource_index/package_run_dependencies/mir_actions
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/ament_index/resource_index/parent_prefix_path/mir_actions
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/ament_prefix_path.sh
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/ament_prefix_path.dsv
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/path.sh
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/environment/path.dsv
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/local_setup.bash
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/local_setup.sh
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/local_setup.zsh
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/local_setup.dsv
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/package.dsv
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/ament_index/resource_index/packages/mir_actions
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_generator_cExport.cmake
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_generator_cExport-noconfig.cmake
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_typesupport_fastrtps_cExport.cmake
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.483s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_generator_cppExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_introspection_cExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_cExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_cExport-noconfig.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_introspection_cppExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_cppExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actions__rosidl_typesupport_cppExport-noconfig.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_generator_pyExport.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/export_mir_actions__rosidl_generator_pyExport-noconfig.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/rosidl_cmake-extras.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/ament_cmake_export_libraries-extras.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/ament_cmake_export_targets-extras.cmake
+[5.484s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.485s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.485s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actionsConfig.cmake
+[5.485s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/cmake/mir_actionsConfig-version.cmake
+[5.485s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions/share/mir_actions/package.xml
+[5.490s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions

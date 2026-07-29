@@ -1,0 +1,5 @@
+[ 33%] Built target execute_macro
+[ 66%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/demo_execute_macro.cpp.o[0m
+[ 83%] Built target get_macros
+[100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[100%] Built target action_client

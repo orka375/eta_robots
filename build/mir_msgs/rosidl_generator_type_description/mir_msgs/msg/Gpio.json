@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/Gpio",
+      "fields": [
+        {
+          "name": "ioport",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "dat",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/Gpio",
+      "hash_string": "RIHS01_9eab2f9a39395d8e32b2da4c6ac6579770051f22953a8c20b3a719bc1603f260"
+    }
+  ]
+}

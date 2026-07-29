@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/MissionCtrlState",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "pos_id",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/MissionCtrlState",
+      "hash_string": "RIHS01_bb1929cf3a9e9bf9363c1f0969981215560ba908ae7166c8c90325f454a1b62a"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/uninstall.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/mir_driver_uninstall.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/ament_cmake_python_copy_mir_driver.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/ament_cmake_python_build_mir_driver_egg.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/test.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/edit_cache.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/rebuild_cache.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/list_install_components.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/install.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/install/local.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver/CMakeFiles/install/strip.dir

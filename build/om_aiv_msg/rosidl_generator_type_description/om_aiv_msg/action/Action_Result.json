@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "om_aiv_msg/action/Action_Result",
+      "fields": [
+        {
+          "name": "res_msg",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "om_aiv_msg/action/Action_Result",
+      "hash_string": "RIHS01_f02676f6d06d8dfda2ffa3fe47160ee7cd6e1ff3162c26057218a6ae75b45193"
+    }
+  ]
+}

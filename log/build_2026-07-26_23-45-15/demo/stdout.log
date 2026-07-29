@@ -1,0 +1,26 @@
+[ 33%] Built target get_macros
+[ 66%] Built target execute_macro
+[100%] Built target action_client
+-- Install configuration: ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/lib/demo/execute_macro
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/lib/demo/execute_macro" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/lib/libaction_client.so
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/lib/libaction_client.so" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/lib/demo/get_macros
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/lib/demo/get_macros" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/environment/ament_prefix_path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/environment/ament_prefix_path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/environment/path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/environment/path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/local_setup.bash
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/local_setup.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/local_setup.zsh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/local_setup.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/package.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/ament_index/resource_index/packages/demo
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/ament_index/resource_index/rclcpp_components/demo
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/cmake/demoConfig.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/cmake/demoConfig-version.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/demo/share/demo/package.xml

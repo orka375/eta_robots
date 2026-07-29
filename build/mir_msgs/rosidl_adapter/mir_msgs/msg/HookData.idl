@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/HookData.msg
+// generated code does not contain a copyright notice
+
+#include "mir_msgs/msg/AngleMeasurment.idl"
+
+module mir_msgs {
+  module msg {
+    struct HookData {
+      mir_msgs::msg::AngleMeasurment angle;
+
+      double height;
+
+      double length;
+
+      uint8 brake_state;
+
+      uint8 gripper_state;
+
+      uint8 height_state;
+    };
+  };
+};

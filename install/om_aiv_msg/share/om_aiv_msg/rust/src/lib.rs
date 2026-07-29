@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_generator_rs/om_aiv_msg/rust/src/lib.rs

@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_generator_c/om_aiv_msg/msg/detail/status__struct.h

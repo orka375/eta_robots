@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/ResourcesAcquisition.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "std_msgs/msg/Header.idl"
+
+module mir_msgs {
+  module msg {
+    struct ResourcesAcquisition {
+      std_msgs::msg::Header header;
+
+      sequence<geometry_msgs::msg::PoseStamped> path;
+
+      string position_guid;
+
+      string token;
+    };
+  };
+};

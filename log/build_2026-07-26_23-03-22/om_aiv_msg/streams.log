@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg
+[0.029s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.140s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.211s] -- Found action_msgs: 2.3.2 (/opt/ros/kilted/share/action_msgs/cmake)
+[0.231s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.240s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.308s] -- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.318s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[0.778s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[1.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.753s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.801s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.804s] -- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[1.818s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.819s] -- Added test 'lint_cmake' to check CMake code style
+[1.819s] -- Added test 'xmllint' to check XML markup files
+[1.822s] -- Configuring done (1.8s)
+[1.854s] -- Generating done (0.0s)
+[1.869s] -- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg

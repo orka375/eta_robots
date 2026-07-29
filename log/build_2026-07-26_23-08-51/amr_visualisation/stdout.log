@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/laser_scans.dir/src/laser_scans.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/data_points_marker.dir/src/data_points_marker.cpp.o[0m
+[ 50%] Built target joints_publisher
+[ 75%] Built target goals_marker

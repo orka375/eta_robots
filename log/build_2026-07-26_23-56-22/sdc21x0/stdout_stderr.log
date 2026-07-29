@@ -1,0 +1,241 @@
+[  1%] Built target sdc21x0__rs
+[  1%] Built target ament_cmake_python_copy_sdc21x0
+[  3%] Built target sdc21x0__rosidl_generator_type_description
+[ 24%] Built target sdc21x0__rosidl_generator_c
+[ 26%] Built target sdc21x0__cpp
+[ 35%] Built target sdc21x0__rosidl_typesupport_fastrtps_c
+[ 44%] Built target sdc21x0__rosidl_typesupport_cpp
+[ 53%] Built target sdc21x0__rosidl_typesupport_fastrtps_cpp
+[ 63%] Built target sdc21x0__rosidl_typesupport_introspection_c
+[ 72%] Built target sdc21x0__rosidl_typesupport_c
+[ 81%] Built target sdc21x0__rosidl_typesupport_introspection_cpp
+running egg_info
+writing sdc21x0.egg-info/PKG-INFO
+writing dependency_links to sdc21x0.egg-info/dependency_links.txt
+writing top-level names to sdc21x0.egg-info/top_level.txt
+[ 81%] Built target sdc21x0
+[ 83%] Built target sdc21x0__py
+reading manifest file 'sdc21x0.egg-info/SOURCES.txt'
+writing manifest file 'sdc21x0.egg-info/SOURCES.txt'
+[ 90%] Built target sdc21x0__rosidl_generator_py
+[ 90%] Built target ament_cmake_python_build_sdc21x0_egg
+[ 96%] Built target sdc21x0_s__rosidl_typesupport_introspection_c
+[ 96%] Built target sdc21x0_s__rosidl_typesupport_fastrtps_c
+[100%] Built target sdc21x0_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/ament_index/resource_index/rosidl_interfaces/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/Encoders.json
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/MotorCurrents.json
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/StampedEncoders.json
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/srv/Flags.json
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/motor_currents.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/stamped_encoders.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/encoders.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__description.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__struct.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__type_support.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__functions.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__struct.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__functions.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__functions.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__type_support.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__description.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__functions.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__functions.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__type_support.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__struct.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__functions.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__description.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/flags.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__functions.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__type_support.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__description.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__functions.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__struct.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/library_path.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/library_path.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_generator_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/encoders.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/motor_currents.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/stamped_encoders.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__type_support.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__struct.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__traits.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__struct.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__traits.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__type_support.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__traits.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__struct.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__builder.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__builder.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__builder.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__type_support.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/flags.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__traits.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__type_support.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__builder.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__struct.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/dds_fastrtps
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/dds_fastrtps
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__type_support.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_typesupport_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__type_support.cpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__type_support.cpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/encoders__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/stamped_encoders__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/msg/detail/motor_currents__type_support.cpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/include/sdc21x0/sdc21x0/srv/detail/flags__type_support.cpp
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/pythonpath.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/pythonpath.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0-1.1.3-py3.12.egg-info
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0-1.1.3-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0-1.1.3-py3.12.egg-info/top_level.txt
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0-1.1.3-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0-1.1.3-py3.12.egg-info/PKG-INFO
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/__init__.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/sdc21x0_s__rosidl_typesupport_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/_sdc21x0_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/_stamped_encoders_s.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/__init__.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/_motor_currents.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/_motor_currents_s.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/_stamped_encoders.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/_encoders.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg/_encoders_s.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/srv/__init__.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/srv/_flags.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/srv/_flags_s.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/sdc21x0_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/_sdc21x0_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/sdc21x0_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/_sdc21x0_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0'...
+Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/msg'...
+Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/srv'...
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/sdc21x0_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/sdc21x0_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/python3.12/site-packages/sdc21x0/sdc21x0_s__rosidl_typesupport_c.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/lib/libsdc21x0__rosidl_generator_py.so
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/ament_index/resource_index/rust_packages/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/Cargo.toml
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/build.rs
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/msg/rmw.rs
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/srv/rmw.rs
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/srv.rs
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/msg.rs
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/rust/src/lib.rs
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/Encoders.idl
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/MotorCurrents.idl
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/StampedEncoders.idl
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/srv/Flags.idl
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/Encoders.msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/MotorCurrents.msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/msg/StampedEncoders.msg
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/srv/Flags.srv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/ament_index/resource_index/package_run_dependencies/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/ament_index/resource_index/parent_prefix_path/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/ament_prefix_path.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/path.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/environment/path.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/local_setup.bash
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/local_setup.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/local_setup.zsh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/local_setup.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/package.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/ament_index/resource_index/packages/sdc21x0
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/export_sdc21x0__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0Config.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/cmake/sdc21x0Config-version.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0/share/sdc21x0/package.xml

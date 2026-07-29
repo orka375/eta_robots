@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/BrakeState",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/BrakeState",
+      "hash_string": "RIHS01_5c10f04d4b1d7ef3c25fc38615b2e24ca6a1e1589ec6f3f140da256c51ccbf89"
+    }
+  ]
+}

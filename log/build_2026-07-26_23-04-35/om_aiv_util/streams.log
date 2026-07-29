@@ -1,0 +1,74 @@
+[1.278s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_util': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/om_aiv_util build --build-base /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build install --record /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/install.log --install-scripts $base/lib/om_aiv_util --single-version-externally-managed install_data
+[1.485s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.485s] !!
+[1.485s] 
+[1.485s]         ********************************************************************************
+[1.485s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.485s]         versions. Please use the underscore name 'script_dir' instead.
+[1.485s] 
+[1.485s]         This deprecation is overdue, please update your project and remove deprecated
+[1.485s]         calls to avoid build errors in the future.
+[1.485s] 
+[1.485s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.485s]         ********************************************************************************
+[1.485s] 
+[1.485s] !!
+[1.486s]   opt = self.warn_dash_deprecation(opt, section)
+[1.699s] running egg_info
+[1.699s] creating ../../../build/om_aiv_util/om_aiv_util.egg-info
+[1.725s] writing ../../../build/om_aiv_util/om_aiv_util.egg-info/PKG-INFO
+[1.726s] writing dependency_links to ../../../build/om_aiv_util/om_aiv_util.egg-info/dependency_links.txt
+[1.726s] writing entry points to ../../../build/om_aiv_util/om_aiv_util.egg-info/entry_points.txt
+[1.726s] writing requirements to ../../../build/om_aiv_util/om_aiv_util.egg-info/requires.txt
+[1.727s] writing top-level names to ../../../build/om_aiv_util/om_aiv_util.egg-info/top_level.txt
+[1.729s] writing manifest file '../../../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[1.796s] reading manifest file '../../../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[1.796s] writing manifest file '../../../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[1.796s] running build
+[1.796s] running build_py
+[1.796s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build
+[1.796s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib
+[1.796s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.796s] copying om_aiv_util/arcl_api_server.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.796s] copying om_aiv_util/__init__.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.796s] copying om_aiv_util/socket_driver.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.796s] copying om_aiv_util/socket_taskmaster.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.796s] copying om_aiv_util/ld_states_publisher.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.800s] copying om_aiv_util/socket_listener.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.800s] copying om_aiv_util/parser.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.800s] copying om_aiv_util/socketconnection_class.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util
+[1.800s] running install
+[1.810s] running install_lib
+[1.842s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/arcl_api_server.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/__init__.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/socket_driver.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/socket_taskmaster.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/ld_states_publisher.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/socket_listener.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.842s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/parser.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.843s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build/lib/om_aiv_util/socketconnection_class.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util
+[1.848s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/arcl_api_server.py to arcl_api_server.cpython-312.pyc
+[1.848s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/__init__.py to __init__.cpython-312.pyc
+[1.848s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/socket_driver.py to socket_driver.cpython-312.pyc
+[1.849s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/socket_taskmaster.py to socket_taskmaster.cpython-312.pyc
+[1.853s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/ld_states_publisher.py to ld_states_publisher.cpython-312.pyc
+[1.854s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/socket_listener.py to socket_listener.cpython-312.pyc
+[1.861s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/parser.py to parser.cpython-312.pyc
+[1.861s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util/socketconnection_class.py to socketconnection_class.cpython-312.pyc
+[1.861s] running install_data
+[1.861s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/ament_index
+[1.861s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/ament_index/resource_index
+[1.861s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/ament_index/resource_index/packages
+[1.861s] copying resource/om_aiv_util -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/ament_index/resource_index/packages
+[1.861s] copying package.xml -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/om_aiv_util
+[1.861s] copying launch/server.launch.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/om_aiv_util
+[1.861s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/om_aiv_util/config
+[1.861s] copying config/main_param.yaml -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/share/om_aiv_util/config
+[1.861s] running install_egg_info
+[1.896s] Copying ../../../build/om_aiv_util/om_aiv_util.egg-info to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util-0.0.0-py3.12.egg-info
+[1.896s] running install_scripts
+[2.204s] Installing arcl_api_server script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/om_aiv_util
+[2.214s] Installing ld_states_publisher script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/om_aiv_util
+[2.214s] writing list of installed files to '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/install.log'
+[2.356s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_util' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/om_aiv_util build --build-base /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build install --record /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/install.log --install-scripts $base/lib/om_aiv_util --single-version-externally-managed install_data

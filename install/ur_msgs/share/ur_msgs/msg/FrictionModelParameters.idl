@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ur_msgs/msg/FrictionModelParameters.msg
+// generated code does not contain a copyright notice
+
+
+module ur_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Per-joint viscous friction scale factors for direct torque control." "\n"
+      "Range per joint. 0 = no compensation, 1 = full compensation." "\n"
+      "Default: [0.9, 0.9, 0.8, 0.9, 0.9, 0.9]")
+    struct FrictionModelParameters {
+      sequence<double> viscous_scale;
+
+      @verbatim (language="comment", text=
+        "Per-joint Coulomb friction scale factors for direct torque control." "\n"
+        "Range per joint. 0 = no compensation, 1 = full compensation." "\n"
+        "Default: [0.8, 0.8, 0.7, 0.8, 0.8, 0.8]")
+      @unit (value="0-1")
+      sequence<double> coulomb_scale;
+    };
+  };
+};

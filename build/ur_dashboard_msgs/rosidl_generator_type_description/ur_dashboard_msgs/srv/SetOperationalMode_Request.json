@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/srv/SetOperationalMode_Request",
+      "fields": [
+        {
+          "name": "operational_mode",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ur_dashboard_msgs/msg/OperationalMode"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ur_dashboard_msgs/msg/OperationalMode",
+        "fields": [
+          {
+            "name": "mode",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/srv/SetOperationalMode_Request",
+      "hash_string": "RIHS01_e5d901304c7d6ba0e47d7969a119746f741a4cffd301b3d1b37ed2c50c089dd0"
+    },
+    {
+      "type_name": "ur_dashboard_msgs/msg/OperationalMode",
+      "hash_string": "RIHS01_8aef190ff9d8aa99df44a561cf4e312d83599272bf7979c2af0c53c8d1856a2f"
+    }
+  ]
+}

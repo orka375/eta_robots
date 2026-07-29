@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_msgs/srv/SetPayload.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module ur_msgs {
+  module srv {
+    struct SetPayload_Request {
+      float mass;
+
+      geometry_msgs::msg::Vector3 center_of_gravity;
+
+      double ixx;
+
+      double iyy;
+
+      double izz;
+
+      double ixy;
+
+      double ixz;
+
+      double iyz;
+
+      builtin_interfaces::msg::Duration transition_time;
+    };
+    struct SetPayload_Response {
+      boolean success;
+    };
+  };
+};

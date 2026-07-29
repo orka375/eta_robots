@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_msgs/srv/SetFrictionModelParameters.srv
+// generated code does not contain a copyright notice
+
+#include "ur_msgs/msg/FrictionModelParameters.idl"
+
+module ur_msgs {
+  module srv {
+    struct SetFrictionModelParameters_Request {
+      ur_msgs::msg::FrictionModelParameters parameters;
+    };
+    struct SetFrictionModelParameters_Response {
+      boolean success;
+    };
+  };
+};

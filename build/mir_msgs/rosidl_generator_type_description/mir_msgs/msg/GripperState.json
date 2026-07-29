@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/GripperState",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/GripperState",
+      "hash_string": "RIHS01_5ddfff174024b2fd184163dd224d143e66098854f25c467ec4fc0aba12b9d252"
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=14, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x778140b540e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x778140b2bd70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x778140b2bd70>>, mixin_verb=('build',))
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.094s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/administrator/Masterproject2/20_ROS/src/Robots'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'ros'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extensions ['cmake', 'python']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'cmake'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'python'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extensions ['python_setup_py']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(MIR) by extension 'python_setup_py'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_actions) by extension 'ros'
+[0.109s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_actions' with type 'ros.ament_cmake' and name 'mir_actions'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extensions ['ignore', 'ignore_ament_install']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extension 'ignore'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extension 'ignore_ament_install'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extensions ['colcon_pkg']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extension 'colcon_pkg'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extensions ['colcon_meta']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extension 'colcon_meta'
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extensions ['ros']
+[0.109s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_description) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_description' with type 'ros.ament_cmake' and name 'mir_description'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_driver) by extension 'ros'
+[0.110s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_driver' with type 'ros.ament_cmake' and name 'mir_driver'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_dwb_critics) by extension 'ros'
+[0.111s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_dwb_critics' with type 'ros.ament_cmake' and name 'mir_dwb_critics'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_gazebo) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_gazebo' with type 'ros.ament_cmake' and name 'mir_gazebo'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_msgs) by extension 'ros'
+[0.112s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_msgs' with type 'ros.ament_cmake' and name 'mir_msgs'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_navigation) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_navigation' with type 'ros.ament_cmake' and name 'mir_navigation'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/mir_robot) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/mir_robot' with type 'ros.ament_cmake' and name 'mir_robot'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(MIR/sdc21x0) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'MIR/sdc21x0' with type 'ros.ament_cmake' and name 'sdc21x0'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'ros'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extensions ['cmake', 'python']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'cmake'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'python'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extensions ['python_setup_py']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic) by extension 'python_setup_py'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_bringup) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'Mecademic/meca500_bringup' with type 'ros.ament_cmake' and name 'meca500_bringup'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_description) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'Mecademic/meca500_description' with type 'ros.ament_cmake' and name 'meca500_description'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_hardware) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'Mecademic/meca500_hardware' with type 'ros.ament_cmake' and name 'meca500_hardware'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(Mecademic/meca500_moveit_config) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'Mecademic/meca500_moveit_config' with type 'ros.ament_cmake' and name 'meca500_moveit_config'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/build) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/build) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/build) ignored
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/docs/dg-images) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/install) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/install) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/install) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/log) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/log) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/log) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extensions ['cmake', 'python']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'cmake'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'python'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extensions ['python_setup_py']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src) by extension 'python_setup_py'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/amr_visualisation) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'Omron_AMR/src/amr_visualisation' with type 'ros.ament_cmake' and name 'amr_visualisation'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/demo) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'Omron_AMR/src/demo' with type 'ros.ament_cmake' and name 'demo'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_msg) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'Omron_AMR/src/om_aiv_msg' with type 'ros.ament_cmake' and name 'om_aiv_msg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_navigation) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'Omron_AMR/src/om_aiv_navigation' with type 'ros.ament_python' and name 'om_aiv_navigation'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(Omron_AMR/src/om_aiv_util) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'Omron_AMR/src/om_aiv_util' with type 'ros.ament_python' and name 'om_aiv_util'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'UR_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_calibration) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'UR_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_controllers) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'UR_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'UR_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_moveit_config) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'UR_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(UR_Driver/ur_robot_driver) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'UR_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/kilted
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'meca500_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'meca500_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_hardware', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'meca500_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'meca500_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_actions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.155s] DEBUG:colcon.colcon_core.verb:Building package 'mir_actions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_actions', 'symlink_install': False, 'test_result_base': None}
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_target' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.155s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mir_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_description', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_dwb_critics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mir_dwb_critics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_dwb_critics', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_dwb_critics', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'mir_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'mir_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_msgs', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'om_aiv_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'om_aiv_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'cmake_target' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'cmake_clean_cache' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'cmake_clean_first' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'cmake_force_configure' from command line to 'False'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'ament_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'catkin_cmake_args' from command line to 'None'
+[0.156s] Level 5:colcon.colcon_core.verb:set package 'sdc21x0' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.156s] DEBUG:colcon.colcon_core.verb:Building package 'sdc21x0' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_moveit_config', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'amr_visualisation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'amr_visualisation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/demo', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/demo', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'meca500_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.157s] DEBUG:colcon.colcon_core.verb:Building package 'meca500_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_target' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.157s] Level 5:colcon.colcon_core.verb:set package 'mir_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'mir_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_driver', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'om_aiv_util' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'om_aiv_util' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_util', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'mir_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_gazebo', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'mir_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'mir_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_navigation', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_calibration', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_calibration', 'symlink_install': False, 'test_result_base': None}
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_target' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'mir_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'mir_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_robot', 'symlink_install': False, 'test_result_base': None}
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur', 'merge_install': False, 'path': '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur', 'symlink_install': False, 'test_result_base': None}
+[0.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.160s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_actions' with build type 'ament_cmake'
+[0.160s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_actions'
+[0.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.161s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.161s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_description' with build type 'ament_cmake'
+[0.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_description'
+[0.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.164s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_msgs' with build type 'ament_cmake'
+[0.165s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_msgs'
+[0.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs'
+[0.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg'
+[0.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_dwb_critics' with build type 'ament_cmake'
+[0.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_dwb_critics'
+[0.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description' with build type 'ament_cmake'
+[0.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware' with build type 'ament_cmake'
+[0.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware'
+[0.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0' with build type 'ament_cmake'
+[0.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0'
+[0.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.174s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config' with build type 'ament_cmake'
+[0.174s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_moveit_config' with build type 'ament_cmake'
+[0.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_moveit_config'
+[0.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.176s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_navigation' with build type 'ament_python'
+[0.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('om_aiv_navigation', 'ament_prefix_path')
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/om_aiv_navigation/hook/ament_prefix_path.ps1'
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/om_aiv_navigation/hook/ament_prefix_path.dsv'
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/om_aiv_navigation/hook/ament_prefix_path.sh'
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_actions -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_actions
+[0.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_description -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description
+[0.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_msgs -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_msgs
+[0.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs
+[0.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_dwb_critics -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_dwb_critics
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description
+[0.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_hardware
+[0.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_moveit_config
+[0.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_moveit_config -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config
+[0.336s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_navigation'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description -- -j14 -l14
+[0.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_moveit_config
+[0.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config -- -j14 -l14
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_description -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description -- -j14 -l14
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description -- -j14 -l14
+[0.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config -- -j14 -l14
+[0.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_moveit_config -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config
+[0.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config -- -j14 -l14
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description -- -j14 -l14
+[0.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_dwb_critics -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_dwb_critics
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics -- -j14 -l14
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config -- -j14 -l14
+[0.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_description)
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description' for CMake module files
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description' for CMake config files
+[0.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_description', 'cmake_prefix_path')
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/hook/cmake_prefix_path.ps1'
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/hook/cmake_prefix_path.dsv'
+[0.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/hook/cmake_prefix_path.sh'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/bin'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/lib/pkgconfig/mir_description.pc'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/lib/python3.12/site-packages'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/bin'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.bash'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.zsh'
+[0.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/colcon-core/packages/mir_description)
+[0.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mir_description)
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description' for CMake module files
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description' for CMake config files
+[0.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('mir_description', 'cmake_prefix_path')
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/hook/cmake_prefix_path.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/hook/cmake_prefix_path.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/hook/cmake_prefix_path.sh'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/bin'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/lib/pkgconfig/mir_description.pc'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/lib/python3.12/site-packages'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/bin'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.sh'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.bash'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.zsh'
+[0.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/colcon-core/packages/mir_description)
+[0.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(meca500_description)
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description' for CMake module files
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description' for CMake config files
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/bin'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/lib/pkgconfig/meca500_description.pc'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/lib/python3.12/site-packages'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/bin'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/package.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/package.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/package.sh'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/package.bash'
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/package.zsh'
+[0.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/colcon-core/packages/meca500_description)
+[2.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.554s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.559s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.559s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.559s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.576s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.576s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/local_setup.ps1'
+[2.577s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/administrator/Masterproject2/20_ROS/src/Robots/install/_local_setup_util_ps1.py'
+[2.577s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/setup.ps1'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/local_setup.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/administrator/Masterproject2/20_ROS/src/Robots/install/_local_setup_util_sh.py'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/setup.sh'
+[2.579s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/local_setup.bash'
+[2.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/setup.bash'
+[2.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/local_setup.zsh'
+[2.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/administrator/Masterproject2/20_ROS/src/Robots/install/setup.zsh'

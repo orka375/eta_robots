@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/srv/GenerateSupportFile_Request",
+      "fields": [
+        {
+          "name": "dir_path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "."
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/srv/GenerateSupportFile_Request",
+      "hash_string": "RIHS01_021be7ab74d7ad24d083ab37b12b71cec99e4ee9e9b682003eee3911920314e2"
+    }
+  ]
+}

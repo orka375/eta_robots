@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config -- -j14 -l14
+[0.205s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config -- -j14 -l14
+[0.206s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config
+[0.219s] -- Install configuration: ""
+[0.219s] -- Execute custom install script
+[0.221s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/config/joint_limits.yaml
+[0.222s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/config/kinematics.yaml
+[0.222s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/config/meca500.srdf
+[0.222s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/config/moveit_controllers.yaml
+[0.222s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/config/ompl_planning.yaml
+[0.222s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/launch/move_group.launch.py
+[0.222s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/ament_index/resource_index/package_run_dependencies/meca500_moveit_config
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/ament_index/resource_index/parent_prefix_path/meca500_moveit_config
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/environment/ament_prefix_path.sh
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/environment/ament_prefix_path.dsv
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/environment/path.sh
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/environment/path.dsv
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/local_setup.bash
+[0.224s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/local_setup.sh
+[0.225s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/local_setup.zsh
+[0.225s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/local_setup.dsv
+[0.225s] -- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/package.dsv
+[0.237s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/ament_index/resource_index/packages/meca500_moveit_config
+[0.238s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/cmake/meca500_moveit_configConfig.cmake
+[0.242s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/cmake/meca500_moveit_configConfig-version.cmake
+[0.242s] -- Up-to-date symlink: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_moveit_config/share/meca500_moveit_config/package.xml
+[0.302s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config

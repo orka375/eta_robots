@@ -1,0 +1,11 @@
+source;share/mir_driver/hook/cmake_prefix_path.ps1
+source;share/mir_driver/hook/cmake_prefix_path.dsv
+source;share/mir_driver/hook/cmake_prefix_path.sh
+source;share/mir_driver/hook/pythonpath.ps1
+source;share/mir_driver/hook/pythonpath.dsv
+source;share/mir_driver/hook/pythonpath.sh
+source;share/mir_driver/local_setup.bash
+source;share/mir_driver/local_setup.dsv
+source;share/mir_driver/local_setup.ps1
+source;share/mir_driver/local_setup.sh
+source;share/mir_driver/local_setup.zsh

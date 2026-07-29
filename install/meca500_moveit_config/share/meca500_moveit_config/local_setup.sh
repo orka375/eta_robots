@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config/ament_cmake_environment_hooks/local_setup.sh

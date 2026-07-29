@@ -1,0 +1,1 @@
+Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0

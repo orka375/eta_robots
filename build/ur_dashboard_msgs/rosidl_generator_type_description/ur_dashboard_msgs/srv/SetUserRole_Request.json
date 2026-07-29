@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/srv/SetUserRole_Request",
+      "fields": [
+        {
+          "name": "user_role",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ur_dashboard_msgs/msg/UserRole"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ur_dashboard_msgs/msg/UserRole",
+        "fields": [
+          {
+            "name": "role",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/srv/SetUserRole_Request",
+      "hash_string": "RIHS01_cd14b4531c5cd95b7f052a59519861c941473e3487ab21328ace59e825f17921"
+    },
+    {
+      "type_name": "ur_dashboard_msgs/msg/UserRole",
+      "hash_string": "RIHS01_ef2323bcf3c0b5ccae2e88e036f7b55d1249a0a78eb7dd23c5aac1ee01334d40"
+    }
+  ]
+}

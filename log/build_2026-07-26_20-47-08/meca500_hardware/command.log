@@ -1,0 +1,1 @@
+Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_hardware

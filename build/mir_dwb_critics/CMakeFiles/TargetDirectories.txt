@@ -1,0 +1,9 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/uninstall.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/mir_dwb_critics_uninstall.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/test.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/edit_cache.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/rebuild_cache.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/list_install_components.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/install.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/install/local.dir
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics/CMakeFiles/install/strip.dir

@@ -1,0 +1,79 @@
+[0.839s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/om_aiv_navigation build --build-base /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build install --record /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/install.log --install-scripts $base/lib/om_aiv_navigation --single-version-externally-managed install_data
+[0.937s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.937s] !!
+[0.937s] 
+[0.937s]         ********************************************************************************
+[0.937s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.937s]         versions. Please use the underscore name 'script_dir' instead.
+[0.937s] 
+[0.937s]         This deprecation is overdue, please update your project and remove deprecated
+[0.937s]         calls to avoid build errors in the future.
+[0.937s] 
+[0.937s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.937s]         ********************************************************************************
+[0.937s] 
+[0.937s] !!
+[0.937s]   opt = self.warn_dash_deprecation(opt, section)
+[1.072s] running egg_info
+[1.072s] creating ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info
+[1.085s] writing ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/entry_points.txt
+[1.085s] writing requirements to ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/requires.txt
+[1.085s] writing top-level names to ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/top_level.txt
+[1.085s] writing manifest file '../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/SOURCES.txt'
+[1.112s] reading manifest file '../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/SOURCES.txt'
+[1.113s] writing manifest file '../../../build/om_aiv_navigation/om_aiv_navigation.egg-info/SOURCES.txt'
+[1.113s] running build
+[1.114s] running build_py
+[1.114s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build
+[1.114s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib
+[1.114s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.114s] copying om_aiv_navigation/point_add_server.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.115s] copying om_aiv_navigation/dock.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.115s] copying om_aiv_navigation/goto_point.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.115s] copying om_aiv_navigation/__init__.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.115s] copying om_aiv_navigation/goto_goal.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.115s] copying om_aiv_navigation/goto_goal_demo.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.116s] copying om_aiv_navigation/localize_at_point.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.116s] copying om_aiv_navigation/action_server.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.116s] copying om_aiv_navigation/execute_macro.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation
+[1.116s] running install
+[1.121s] running install_lib
+[1.136s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/point_add_server.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/dock.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/goto_point.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/__init__.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/goto_goal.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/goto_goal_demo.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/localize_at_point.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/action_server.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.136s] copying /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build/lib/om_aiv_navigation/execute_macro.py -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation
+[1.137s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/point_add_server.py to point_add_server.cpython-312.pyc
+[1.138s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/dock.py to dock.cpython-312.pyc
+[1.139s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/goto_point.py to goto_point.cpython-312.pyc
+[1.140s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/__init__.py to __init__.cpython-312.pyc
+[1.140s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/goto_goal.py to goto_goal.cpython-312.pyc
+[1.140s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/goto_goal_demo.py to goto_goal_demo.cpython-312.pyc
+[1.140s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/localize_at_point.py to localize_at_point.cpython-312.pyc
+[1.141s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/action_server.py to action_server.cpython-312.pyc
+[1.142s] byte-compiling /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation/execute_macro.py to execute_macro.cpython-312.pyc
+[1.142s] running install_data
+[1.142s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/ament_index
+[1.142s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/ament_index/resource_index
+[1.142s] creating /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/ament_index/resource_index/packages
+[1.143s] copying resource/om_aiv_navigation -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/ament_index/resource_index/packages
+[1.143s] copying package.xml -> /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/share/om_aiv_navigation
+[1.143s] running install_egg_info
+[1.157s] Copying ../../../build/om_aiv_navigation/om_aiv_navigation.egg-info to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages/om_aiv_navigation-0.0.0-py3.12.egg-info
+[1.157s] running install_scripts
+[1.318s] Installing action_server script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.318s] Installing dock script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.318s] Installing execute_macro script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.318s] Installing goto_goal script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.318s] Installing goto_goal_demo script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.318s] Installing goto_point script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.318s] Installing localize_at_point script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/om_aiv_navigation
+[1.321s] writing list of installed files to '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/install.log'
+[1.355s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/om_aiv_navigation build --build-base /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/build install --record /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_navigation/install.log --install-scripts $base/lib/om_aiv_navigation --single-version-externally-managed install_data

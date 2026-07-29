@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found controller_manager: 5.14.2 (/opt/ros/kilted/share/controller_manager/cmake)
+-- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.3.4 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.5.2 (/opt/ros/kilted/share/std_srvs/cmake)
+-- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ur_dashboard_msgs: 4.8.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+-- Found ur_msgs: 2.6.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/share/ur_msgs/cmake)
+-- Found my_ur_msgs: 0.0.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/share/my_ur_msgs/cmake)
+-- Found motion_primitives_controllers: 5.15.1 (/opt/ros/kilted/share/motion_primitives_controllers/cmake)
+-- Found ur_controllers: 4.8.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake)
+-- Found ur_description: 4.3.1 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description/share/ur_description/cmake)
+-- Found launch_testing_ament_cmake: 3.8.7 (/opt/ros/kilted/share/launch_testing_ament_cmake/cmake)
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_log_handler.dir/src/urcl_log_handler.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/trajectory_until_node.dir/src/trajectory_until_node.cpp.o[0m
+[ 52%] Built target ament_cmake_python_copy_ur_robot_driver
+[ 57%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+running egg_info
+creating ur_robot_driver.egg-info
+writing ur_robot_driver.egg-info/PKG-INFO
+writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+writing top-level names to ur_robot_driver.egg-info/top_level.txt
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[ 61%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[ 71%] [32m[1mLinking CXX shared library libur_robot_driver_log_handler.so[0m
+[ 71%] Built target ur_robot_driver_log_handler
+[ 76%] [32m[1mLinking CXX executable trajectory_until_node[0m
+[ 76%] Built target trajectory_until_node
+[ 80%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[ 80%] Built target controller_stopper_node
+[ 85%] [32m[1mLinking CXX executable robot_state_helper[0m
+[ 85%] Built target robot_state_helper
+[ 90%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[ 90%] Built target ur_robot_driver_plugin
+[ 95%] [32m[1mLinking CXX executable dashboard_client[0m
+[ 95%] Built target dashboard_client

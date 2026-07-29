@@ -1,0 +1,1 @@
+amcl:base_local_planner:dwa_local_planner:dwb_critics:dwb_local_planner:dwb_plugins:hector_mapping:map_server:mir_driver:mir_dwb_critics:mir_gazebo:move_base:nav_core_adapter:python3-matplotlib:sbpl_lattice_planner:teb_local_planner

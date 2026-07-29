@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config/ament_cmake_core/ur_moveit_configConfig.cmake

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/srv/DownloadProgram_Request",
+      "fields": [
+        {
+          "name": "program_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "target_path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/srv/DownloadProgram_Request",
+      "hash_string": "RIHS01_549dc21376cc4b11e35d1e4ec2844ba7f37d8f23ec08bc7631f108595dc015be"
+    }
+  ]
+}

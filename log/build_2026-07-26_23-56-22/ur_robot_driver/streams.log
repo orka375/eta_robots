@@ -1,0 +1,191 @@
+[0.015s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/pkgconfig PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver -- -j14 -l14
+[0.032s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.032s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.163s] -- Found controller_manager: 5.14.2 (/opt/ros/kilted/share/controller_manager/cmake)
+[0.175s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.246s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.247s] -- Found rmw_fastrtps_cpp: 9.3.4 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[0.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.321s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[0.321s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[0.321s]   Lyrical Luth.
+[0.321s] 
+[0.321s]         Use tl/expected.hpp from libexpected-dev,
+[0.321s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[0.321s] Call Stack (most recent call first):
+[0.321s]   /opt/ros/kilted/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.321s]   /opt/ros/kilted/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[0.321s]   /opt/ros/kilted/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.321s]   /opt/ros/kilted/share/controller_manager/cmake/controller_managerConfig.cmake:41 (include)
+[0.321s]   CMakeLists.txt:35 (find_package)
+[0.321s] 
+[0.321s] [0m
+[0.499s] -- Found std_srvs: 5.5.2 (/opt/ros/kilted/share/std_srvs/cmake)
+[0.507s] -- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[0.509s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[0.510s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.548s] -- Found ur_dashboard_msgs: 4.8.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.591s] -- Found ur_msgs: 2.6.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/share/ur_msgs/cmake)
+[0.620s] -- Found my_ur_msgs: 0.0.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/share/my_ur_msgs/cmake)
+[0.631s] -- Found motion_primitives_controllers: 5.15.1 (/opt/ros/kilted/share/motion_primitives_controllers/cmake)
+[0.768s] -- Found ur_controllers: 4.8.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake)
+[0.847s] -- Found ur_description: 4.3.1 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description/share/ur_description/cmake)
+[0.847s] -- Found launch_testing_ament_cmake: 3.8.7 (/opt/ros/kilted/share/launch_testing_ament_cmake/cmake)
+[0.847s] -- Configuring done (0.8s)
+[0.877s] -- Generating done (0.0s)
+[0.885s] -- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver
+[0.918s] [  0%] Built target ament_cmake_python_copy_ur_robot_driver
+[0.921s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_log_handler.dir/src/urcl_log_handler.cpp.o[0m
+[0.921s] [ 19%] Built target trajectory_until_node
+[0.921s] [ 19%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[0.921s] [ 28%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[0.921s] [ 28%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[0.929s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[0.930s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o[0m
+[0.930s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o[0m
+[0.930s] [ 47%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o[0m
+[0.933s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[0.933s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[0.937s] [ 61%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[0.943s] [ 66%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[0.952s] [ 71%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[1.287s] running egg_info
+[1.301s] writing ur_robot_driver.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[1.303s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[1.342s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.343s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.374s] [ 71%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[1.634s] [ 76%] [32m[1mLinking CXX shared library libur_robot_driver_log_handler.so[0m
+[1.729s] [ 76%] Built target ur_robot_driver_log_handler
+[11.848s] [ 80%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[11.880s] [ 85%] [32m[1mLinking CXX executable urscript_interface[0m
+[12.065s] [ 85%] Built target controller_stopper_node
+[12.157s] [ 85%] Built target urscript_interface
+[18.014s] [ 90%] [32m[1mLinking CXX executable robot_state_helper[0m
+[18.383s] [ 90%] Built target robot_state_helper
+[25.894s] [ 95%] [32m[1mLinking CXX executable dashboard_client[0m
+[26.266s] [ 95%] Built target dashboard_client
+[27.429s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[27.917s] [100%] Built target ur_robot_driver_plugin
+[27.924s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/pkgconfig PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver -- -j14 -l14
+[27.927s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/pkgconfig PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver
+[27.931s] -- Install configuration: "RelWithDebInfo"
+[27.932s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[27.932s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[27.943s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[27.943s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[27.949s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[27.949s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[27.953s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[27.953s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[27.966s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper" to ""
+[27.966s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/trajectory_until_node
+[27.970s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/trajectory_until_node" to ""
+[27.971s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/libur_robot_driver_log_handler.so
+[27.971s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/libur_robot_driver_log_handler.so" to ""
+[27.972s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[27.993s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[27.993s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver
+[27.993s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver
+[27.993s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver/robot_state_helper.hpp
+[27.994s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver/trajectory_until_node.hpp
+[27.994s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver/controller_stopper.hpp
+[27.994s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver/hardware_interface.hpp
+[27.994s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver/dashboard_client_ros.hpp
+[27.994s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/include/ur_robot_driver/ur_robot_driver/urcl_log_handler.hpp
+[27.995s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[27.995s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[27.995s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/resources
+[27.995s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[27.996s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[27.996s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[27.996s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[27.996s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[27.996s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[27.997s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-4.8.0-py3.12.egg-info
+[27.997s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-4.8.0-py3.12.egg-info/dependency_links.txt
+[27.997s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-4.8.0-py3.12.egg-info/top_level.txt
+[27.997s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-4.8.0-py3.12.egg-info/SOURCES.txt
+[27.997s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver-4.8.0-py3.12.egg-info/PKG-INFO
+[27.998s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver
+[27.998s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver/__init__.py
+[28.016s] Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver'...
+[28.016s] Compiling '/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/python3.12/site-packages/ur_robot_driver/__init__.py'...
+[28.020s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[28.020s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/wait_for_robot_description
+[28.021s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[28.021s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[28.022s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[28.022s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[28.022s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/send_dummy_motion_primitives_ur10e.py
+[28.022s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/lib/ur_robot_driver/move_until_example.py
+[28.023s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[28.023s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config
+[28.023s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[28.023s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[28.024s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur8long_update_rate.yaml
+[28.024s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[28.024s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[28.024s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[28.025s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur7e_update_rate.yaml
+[28.025s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[28.025s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[28.026s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[28.026s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur12e_update_rate.yaml
+[28.026s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[28.026s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[28.026s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[28.027s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[28.027s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur18_update_rate.yaml
+[28.027s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[28.027s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch
+[28.027s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[28.028s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[28.028s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[28.029s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[28.030s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[28.030s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[28.031s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[28.031s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[28.031s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur_rsp.launch.py
+[28.032s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[28.032s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[28.033s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[28.033s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur18.launch.py
+[28.033s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[28.033s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[28.034s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[28.034s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[28.035s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[28.035s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur8long.launch.py
+[28.036s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[28.036s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/urdf
+[28.037s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/urdf/ur.ros2_control.xacro
+[28.038s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/urdf/ur.urdf.xacro
+[28.038s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[28.038s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[28.039s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[28.040s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[28.040s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[28.041s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[28.041s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[28.043s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[28.044s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[28.044s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[28.045s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[28.046s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[28.047s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[28.047s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/export_ur_robot_driverExport.cmake
+[28.048s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/export_ur_robot_driverExport-relwithdebinfo.cmake
+[28.049s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.049s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[28.050s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_targets-extras.cmake
+[28.050s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.051s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[28.052s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[28.053s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[28.053s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/x86_64-linux-gnu/pkgconfig:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/pkgconfig PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver

@@ -1,0 +1,24 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/Analog.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/Digital.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/IOStates.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/ToolDataMsg.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:msg/FrictionModelParameters.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetAnalogOutput.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetGravity.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetPayload.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetIO.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/GetRobotSoftwareVersion.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetForceMode.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:srv/SetFrictionModelParameters.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:action/ToolContact.action",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:action/FollowJointTrajectoryUntil.action",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_msgs:action/SendScript.action"
+  ]
+}

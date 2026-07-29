@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config" FILES "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/ur_moveit_config" "DESTINATION" "share/ament_index/resource_index/packages")

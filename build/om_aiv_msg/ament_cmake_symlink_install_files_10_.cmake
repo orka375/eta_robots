@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg" FILES "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/ament_cmake_index/share/ament_index/resource_index/rust_packages/om_aiv_msg" "DESTINATION" "share/ament_index/resource_index/rust_packages")

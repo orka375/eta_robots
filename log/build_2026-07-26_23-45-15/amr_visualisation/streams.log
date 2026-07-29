@@ -1,0 +1,50 @@
+[0.104s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation -- -j14 -l14
+[0.211s] [ 25%] Built target joints_publisher
+[0.211s] [ 50%] Built target data_points_marker
+[0.211s] [ 75%] Built target goals_marker
+[0.211s] [100%] Built target laser_scans
+[0.261s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation -- -j14 -l14
+[0.262s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation
+[0.275s] -- Install configuration: ""
+[0.275s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/joints_publisher
+[0.276s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/joints_publisher" to ""
+[0.276s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/data_points_marker
+[0.278s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/data_points_marker" to ""
+[0.278s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/goals_marker
+[0.280s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/goals_marker" to ""
+[0.280s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/laser_scans
+[0.282s] -- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/laser_scans" to ""
+[0.282s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/launch
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/launch/display.launch.py
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/config
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/config/amr_rviz.rviz
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/map
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/map/data.map
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD90.mtl
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD250.mtl
+[0.283s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/AMR_Platform.STL
+[0.289s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD250.obj
+[0.299s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD90.obj
+[0.314s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/param
+[0.314s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/param/vis_param.yaml
+[0.314s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf
+[0.314s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/LD250.urdf
+[0.314s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/AMR_Platform.urdf
+[0.315s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/LD90.urdf
+[0.315s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/package_run_dependencies/amr_visualisation
+[0.315s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/parent_prefix_path/amr_visualisation
+[0.315s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.sh
+[0.315s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.dsv
+[0.316s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/path.sh
+[0.317s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/path.dsv
+[0.317s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.bash
+[0.318s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.sh
+[0.318s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.zsh
+[0.319s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.dsv
+[0.319s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/package.dsv
+[0.320s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/packages/amr_visualisation
+[0.321s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig.cmake
+[0.321s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig-version.cmake
+[0.323s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/package.xml
+[0.329s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_dashboard_msgs/msg/SafetyStatus",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_dashboard_msgs/msg/SafetyStatus",
+      "hash_string": "RIHS01_355caf141b54cde62b4c48c0ff8a846183e2a37a1ae383c23fac70fcc7cef95d"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs" FILES "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs/srv/GetSafetyMode.idl" "DESTINATION" "share/ur_dashboard_msgs/srv")

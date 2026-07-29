@@ -1,0 +1,37 @@
+{
+  "package_name": "ur_msgs",
+  "output_dir": "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_generator_type_description/ur_msgs",
+  "idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Analog.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Digital.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/IOStates.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotStateRTMsg.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/MasterboardDataMsg.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotModeDataMsg.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/ToolDataMsg.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:msg/FrictionModelParameters.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetAnalogOutput.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetGravity.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetPayload.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetSpeedSliderFraction.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetIO.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/GetRobotSoftwareVersion.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetForceMode.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetFrictionModelParameters.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:action/ToolContact.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:action/FollowJointTrajectoryUntil.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_msgs/rosidl_adapter/ur_msgs:action/SendScript.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/kilted/share/geometry_msgs",
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "control_msgs:/opt/ros/kilted/share/control_msgs",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "diagnostic_msgs:/opt/ros/kilted/share/diagnostic_msgs",
+    "sensor_msgs:/opt/ros/kilted/share/sensor_msgs",
+    "trajectory_msgs:/opt/ros/kilted/share/trajectory_msgs",
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
+  ]
+}

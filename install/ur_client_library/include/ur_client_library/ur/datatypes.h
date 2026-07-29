@@ -1,0 +1,338 @@
+// this is for emacs file handling -*- mode: c++; indent-tabs-mode: nil -*-
+
+// -- BEGIN LICENSE BLOCK ----------------------------------------------
+// Copyright 2019 FZI Forschungszentrum Informatik
+// Copyright 2015, 2016 Thomas Timm Andersen (original version)
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+// -- END LICENSE BLOCK ------------------------------------------------
+
+//----------------------------------------------------------------------
+/*!\file
+ * This file contains enums for internal mode representations.
+ *
+ * \author  Felix Exner exner@fzi.de
+ * \date    2019-11-04
+ *
+ */
+//----------------------------------------------------------------------
+#pragma once
+
+#include <ur_client_library/types.h>
+#include "ur_client_library/log.h"
+#include <sstream>
+
+namespace urcl
+{
+enum class RobotMode : int8_t
+{
+  UNKNOWN = -128,  // This is not defined by UR but only inside this driver
+  NO_CONTROLLER = -1,
+  DISCONNECTED = 0,
+  CONFIRM_SAFETY = 1,
+  BOOTING = 2,
+  POWER_OFF = 3,
+  POWER_ON = 4,
+  IDLE = 5,
+  BACKDRIVE = 6,
+  RUNNING = 7,
+  UPDATING_FIRMWARE = 8
+};
+
+enum class SafetyMode : uint8_t
+{
+  NORMAL = 1,
+  REDUCED = 2,
+  PROTECTIVE_STOP = 3,
+  RECOVERY = 4,
+  SAFEGUARD_STOP = 5,
+  SYSTEM_EMERGENCY_STOP = 6,
+  ROBOT_EMERGENCY_STOP = 7,
+  VIOLATION = 8,
+  FAULT = 9,
+  VALIDATE_JOINT_ID = 10,
+  UNDEFINED_SAFETY_MODE = 11,
+  AUTOMATIC_MODE_SAFEGUARD_STOP = 12,
+  SYSTEM_THREE_POSITION_ENABLING_STOP = 13,
+  TP_THREE_POSITION_ENABLING_STOP = 14,
+  IMMI_EMERGENCY_STOP = 15,
+  IMMI_SAFEGUARD_STOP = 16,
+  PROFISAFE_WAITING_FOR_PARAMETERS = 17,
+  PROFISAFE_AUTOMATIC_MODE_SAFEGUARD_STOP = 18,
+  PROFISAFE_SAFEGUARD_STOP = 19,
+  PROFISAFE_EMERGENCY_STOP = 20,
+  SAFETY_API_SAFEGUARD_STOP = 22
+};
+
+enum class SafetyStatus : int8_t  // Only available on 3.10/5.4
+{
+  NORMAL = 1,
+  REDUCED = 2,
+  PROTECTIVE_STOP = 3,
+  RECOVERY = 4,
+  SAFEGUARD_STOP = 5,
+  SYSTEM_EMERGENCY_STOP = 6,
+  ROBOT_EMERGENCY_STOP = 7,
+  VIOLATION = 8,
+  FAULT = 9,
+  VALIDATE_JOINT_ID = 10,
+  UNDEFINED_SAFETY_MODE = 11,
+  AUTOMATIC_MODE_SAFEGUARD_STOP = 12,
+  SYSTEM_THREE_POSITION_ENABLING_STOP = 13
+};
+
+enum class AnalogOutputType : int8_t
+{
+  SET_ON_TEACH_PENDANT = -1,
+  CURRENT = 0,
+  VOLTAGE = 1
+};
+
+enum class RobotType : int8_t
+{
+  UNDEFINED = -128,  // This is not defined by UR but only inside this driver
+  UR5 = 1,
+  UR10 = 2,
+  UR3 = 3,
+  UR16 = 4,
+  UR18 = 5,
+  UR8LONG = 6,
+  UR20 = 7,
+  UR30 = 8,
+  UR15 = 9
+};
+
+enum class RobotSeries
+{
+  UNDEFINED = -128,
+  CB3 = 1,
+  E_SERIES = 2,
+  UR_SERIES = 3
+};
+
+enum class ReportLevel : int32_t
+{
+  DEBUG = 0,
+  INFO = 1,
+  WARNING = 2,
+  VIOLATION = 3,
+  FAULT = 4,
+  CRITICAL_FAULT = 5,
+  DEVL_DEBUG = 128,
+  DEVL_INFO = 129,
+  DEVL_WARNING = 130,
+  DEVL_VIOLATION = 131,
+  DEVL_FAULT = 132,
+  DEVL_CRITICAL_FAULT = 133
+};
+
+inline std::string reportLevelString(const ReportLevel& code)
+{
+  switch (code)
+  {
+    case ReportLevel::DEBUG:
+      return "DEBUG";
+    case ReportLevel::INFO:
+      return "INFO";
+    case ReportLevel::WARNING:
+      return "WARNING";
+    case ReportLevel::VIOLATION:
+      return "VIOLATION";
+    case ReportLevel::FAULT:
+      return "FAULT";
+    case ReportLevel::CRITICAL_FAULT:
+      return "CRITICAL_FAULT";
+    case ReportLevel::DEVL_DEBUG:
+      return "DEVL_DEBUG";
+    case ReportLevel::DEVL_INFO:
+      return "DEVL_INFO";
+    case ReportLevel::DEVL_WARNING:
+      return "DEVL_WARNING";
+    case ReportLevel::DEVL_VIOLATION:
+      return "DEVL_VIOLATION";
+    case ReportLevel::DEVL_FAULT:
+      return "DEVL_FAULT";
+    case ReportLevel::DEVL_CRITICAL_FAULT:
+      return "DEVL_CRITICAL_FAULT";
+  }
+  throw std::invalid_argument("Unknown report level: " + std::to_string(static_cast<int>(code)));
+}
+
+inline std::string robotModeString(const RobotMode& mode)
+{
+  switch (mode)
+  {
+    case RobotMode::NO_CONTROLLER:
+      return "NO_CONTROLLER";
+    case RobotMode::DISCONNECTED:
+      return "DISCONNECTED";
+    case RobotMode::CONFIRM_SAFETY:
+      return "CONFIRM_SAFETY";
+    case RobotMode::BOOTING:
+      return "BOOTING";
+    case RobotMode::POWER_OFF:
+      return "POWER_OFF";
+    case RobotMode::POWER_ON:
+      return "POWER_ON";
+    case RobotMode::IDLE:
+      return "IDLE";
+    case RobotMode::BACKDRIVE:
+      return "BACKDRIVE";
+    case RobotMode::RUNNING:
+      return "RUNNING";
+    case RobotMode::UPDATING_FIRMWARE:
+      return "UPDATING_FIRMWARE";
+    case RobotMode::UNKNOWN:
+      return "UNKNOWN";
+  }
+  throw std::invalid_argument("Unknown robot mode: " + std::to_string(static_cast<int>(mode)));
+}
+
+inline std::string safetyModeString(const SafetyMode& mode)
+{
+  switch (mode)
+  {
+    case SafetyMode::NORMAL:
+      return "NORMAL";
+    case SafetyMode::REDUCED:
+      return "REDUCED";
+    case SafetyMode::PROTECTIVE_STOP:
+      return "PROTECTIVE_STOP";
+    case SafetyMode::RECOVERY:
+      return "RECOVERY";
+    case SafetyMode::SAFEGUARD_STOP:
+      return "SAFEGUARD_STOP";
+    case SafetyMode::SYSTEM_EMERGENCY_STOP:
+      return "SYSTEM_EMERGENCY_STOP";
+    case SafetyMode::ROBOT_EMERGENCY_STOP:
+      return "ROBOT_EMERGENCY_STOP";
+    case SafetyMode::VIOLATION:
+      return "VIOLATION";
+    case SafetyMode::FAULT:
+      return "FAULT";
+    case SafetyMode::VALIDATE_JOINT_ID:
+      return "VALIDATE_JOINT_ID";
+    case SafetyMode::UNDEFINED_SAFETY_MODE:
+      return "UNDEFINED_SAFETY_MODE";
+    case SafetyMode::AUTOMATIC_MODE_SAFEGUARD_STOP:
+      return "AUTOMATIC_MODE_SAFEGUARD_STOP";
+    case SafetyMode::SYSTEM_THREE_POSITION_ENABLING_STOP:
+      return "SYSTEM_THREE_POSITION_ENABLING_STOP";
+    case SafetyMode::TP_THREE_POSITION_ENABLING_STOP:
+      return "TP_THREE_POSITION_ENABLING_STOP";
+    case SafetyMode::IMMI_EMERGENCY_STOP:
+      return "IMMI_EMERGENCY_STOP";
+    case SafetyMode::IMMI_SAFEGUARD_STOP:
+      return "IMMI_SAFEGUARD_STOP";
+    case SafetyMode::PROFISAFE_WAITING_FOR_PARAMETERS:
+      return "PROFISAFE_WAITING_FOR_PARAMETERS";
+    case SafetyMode::PROFISAFE_AUTOMATIC_MODE_SAFEGUARD_STOP:
+      return "PROFISAFE_AUTOMATIC_MODE_SAFEGUARD_STOP";
+    case SafetyMode::PROFISAFE_SAFEGUARD_STOP:
+      return "PROFISAFE_SAFEGUARD_STOP";
+    case SafetyMode::PROFISAFE_EMERGENCY_STOP:
+      return "PROFISAFE_EMERGENCY_STOP";
+    case SafetyMode::SAFETY_API_SAFEGUARD_STOP:
+      return "SAFETY_API_SAFEGUARD_STOP";
+  }
+  throw std::invalid_argument("Unknown safety mode: " + std::to_string(static_cast<int>(mode)));
+}
+
+inline std::string safetyStatusString(const SafetyStatus& status)
+{
+  switch (status)
+  {
+    case SafetyStatus::NORMAL:
+      return "NORMAL";
+    case SafetyStatus::REDUCED:
+      return "REDUCED";
+    case SafetyStatus::PROTECTIVE_STOP:
+      return "PROTECTIVE_STOP";
+    case SafetyStatus::RECOVERY:
+      return "RECOVERY";
+    case SafetyStatus::SAFEGUARD_STOP:
+      return "SAFEGUARD_STOP";
+    case SafetyStatus::SYSTEM_EMERGENCY_STOP:
+      return "SYSTEM_EMERGENCY_STOP";
+    case SafetyStatus::ROBOT_EMERGENCY_STOP:
+      return "ROBOT_EMERGENCY_STOP";
+    case SafetyStatus::VIOLATION:
+      return "VIOLATION";
+    case SafetyStatus::FAULT:
+      return "FAULT";
+    case SafetyStatus::VALIDATE_JOINT_ID:
+      return "VALIDATE_JOINT_ID";
+    case SafetyStatus::UNDEFINED_SAFETY_MODE:
+      return "UNDEFINED_SAFETY_MODE";
+    case SafetyStatus::AUTOMATIC_MODE_SAFEGUARD_STOP:
+      return "AUTOMATIC_MODE_SAFEGUARD_STOP";
+    case SafetyStatus::SYSTEM_THREE_POSITION_ENABLING_STOP:
+      return "SYSTEM_THREE_POSITION_ENABLING_STOP";
+  }
+  throw std::invalid_argument("Unknown safety status: " + std::to_string(static_cast<int>(status)));
+}
+
+inline std::string robotTypeString(const RobotType& type)
+{
+  switch (type)
+  {
+    case RobotType::UR3:
+      return "UR3";
+    case RobotType::UR5:
+      return "UR5";
+    case RobotType::UR8LONG:
+      return "UR8_LONG";
+    case RobotType::UR10:
+      return "UR10";
+    case RobotType::UR15:
+      return "UR15";
+    case RobotType::UR16:
+      return "UR16";
+    case RobotType::UR18:
+      return "UR18";
+    case RobotType::UR20:
+      return "UR20";
+    case RobotType::UR30:
+      return "UR30";
+    case RobotType::UNDEFINED:
+      return "UNDEFINED";
+  }
+  throw std::invalid_argument("Unknown robot type: " + std::to_string(static_cast<int>(type)));
+}
+
+/**
+ * @brief Converts a RobotSeries enum value to its corresponding string representation.
+ *
+ * This function takes a RobotSeries enum value and returns a string that represents the robot series.
+ * If the provided RobotSeries value does not match any known series, it logs a warning and returns "UNDEFINED".
+ *
+ * @param series The RobotSeries enum value to convert.
+ * @return A string representation of the robot series.
+ */
+inline std::string robotSeriesString(const RobotSeries& series)
+{
+  switch (series)
+  {
+    case RobotSeries::CB3:
+      return "CB3";
+    case RobotSeries::E_SERIES:
+      return "E_SERIES";
+    case RobotSeries::UR_SERIES:
+      return "UR_SERIES";
+    case RobotSeries::UNDEFINED:
+      return "UNDEFINED";
+  }
+  throw std::invalid_argument("Unknown robot series: " + std::to_string(static_cast<int>(series)));
+}
+
+}  // namespace urcl

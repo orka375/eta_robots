@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs/msg/UserRole.msg

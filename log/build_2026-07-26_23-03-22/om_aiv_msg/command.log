@@ -1,0 +1,1 @@
+Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg

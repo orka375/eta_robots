@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/MovingState",
+      "fields": [
+        {
+          "name": "moving_state",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/MovingState",
+      "hash_string": "RIHS01_d5c1b2393e39d05fe0e93be79cb174b6e8dcf95d0890a37ccf1917215813a5b4"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_moveit_config/ament_cmake_core/meca500_moveit_configConfig-version.cmake

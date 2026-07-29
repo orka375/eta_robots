@@ -1,0 +1,16 @@
+In file included from [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/src/laser_scans.cpp:1[m[K:
+[01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/include/amr_visualisation/laser_scans.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: No such file or directory
+    2 | #include [01;31m[K<ament_index_cpp/get_package_share_directory.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/laser_scans.dir/build.make:76: CMakeFiles/laser_scans.dir/src/laser_scans.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/laser_scans.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/src/data_points_marker.cpp:1[m[K:
+[01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation/include/amr_visualisation/data_points_marker.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Kament_index_cpp/get_package_share_directory.hpp: No such file or directory
+    2 | #include [01;31m[K<ament_index_cpp/get_package_share_directory.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/data_points_marker.dir/build.make:76: CMakeFiles/data_points_marker.dir/src/data_points_marker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/data_points_marker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

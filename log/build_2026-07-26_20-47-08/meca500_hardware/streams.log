@@ -1,0 +1,31 @@
+[0.023s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_hardware
+[0.180s] -- The C compiler identification is GNU 13.3.0
+[0.305s] -- The CXX compiler identification is GNU 13.3.0
+[0.320s] -- Detecting C compiler ABI info
+[0.387s] -- Detecting C compiler ABI info - done
+[0.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.409s] -- Detecting C compile features
+[0.410s] -- Detecting C compile features - done
+[0.422s] -- Detecting CXX compiler ABI info
+[0.494s] -- Detecting CXX compiler ABI info - done
+[0.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.501s] -- Detecting CXX compile features
+[0.501s] -- Detecting CXX compile features - done
+[0.507s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.507s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.508s]   has asked CMake to find a package configuration file provided by
+[0.508s]   "ament_cmake", but CMake did not find one.
+[0.508s] 
+[0.508s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.508s]   any of the following names:
+[0.508s] 
+[0.508s]     ament_cmakeConfig.cmake
+[0.508s]     ament_cmake-config.cmake
+[0.508s] 
+[0.508s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.508s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.508s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.508s]   has been installed.
+[0.508s] 
+[0.508s] -- Configuring incomplete, errors occurred!
+[0.508s] [0m

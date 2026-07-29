@@ -1,0 +1,34 @@
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.19.3 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/urdf/meca500.ros2_control.xacro
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/urdf/meca500.urdf
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/urdf/meca500.urdf.xacro
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/urdf/meca500_macro.xacro
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_0.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_1.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_2.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_3.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_4.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_5.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/meshes/link_6.dae
+-- Symlinking: /home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_description/share/meca500_description/launch/view_robot.launch.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description/rviz'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

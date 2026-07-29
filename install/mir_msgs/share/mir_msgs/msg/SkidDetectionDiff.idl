@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/SkidDetectionDiff.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module mir_msgs {
+  module msg {
+    struct SkidDetectionDiff {
+      builtin_interfaces::msg::Time time_stamp;
+
+      double enc_acc_x;
+
+      double enc_acc_y;
+
+      double enc_rot_th;
+
+      double imu_acc_x;
+
+      double imu_acc_y;
+
+      double imu_rot_th;
+
+      double diff_acc_x;
+
+      double diff_acc_y;
+
+      double diff_rot_th;
+    };
+  };
+};

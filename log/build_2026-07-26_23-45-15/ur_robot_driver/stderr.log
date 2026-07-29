@@ -1,0 +1,23 @@
+[0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0mCMake Deprecation Warning at /opt/ros/kilted/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+  Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+  Lyrical Luth.
+
+        Use tl/expected.hpp from libexpected-dev,
+        or rcpputils/tl_expected/expected.hpp if the system header is not available)
+Call Stack (most recent call first):
+  /opt/ros/kilted/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/kilted/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+  /opt/ros/kilted/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/kilted/share/controller_manager/cmake/controller_managerConfig.cmake:41 (include)
+  CMakeLists.txt:35 (find_package)
+
+[0m
+[01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver/src/urscript_interface.cpp:[m[K In member function ‘[01m[Kvoid URScriptInterface::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_ur_msgs::action::SendScript> >)[m[K’:
+[01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver/src/urscript_interface.cpp:160:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass urcl::primary_interface::PrimaryClient[m[K’ has no member named ‘[01m[KsendScriptBlocking[m[K’
+  160 |       primary_client_->[01;31m[KsendScriptBlocking[m[K(goal->program, goal->script_name, chrono_timeout, goal->fail_on_warnings,
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/urscript_interface.dir/build.make:76: CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/urscript_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

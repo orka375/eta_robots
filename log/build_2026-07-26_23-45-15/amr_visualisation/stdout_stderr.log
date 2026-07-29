@@ -1,0 +1,46 @@
+[ 25%] Built target joints_publisher
+[ 50%] Built target data_points_marker
+[ 75%] Built target goals_marker
+[100%] Built target laser_scans
+-- Install configuration: ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/joints_publisher
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/joints_publisher" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/data_points_marker
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/data_points_marker" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/goals_marker
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/goals_marker" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/laser_scans
+-- Set non-toolchain portion of runtime path of "/home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/laser_scans" to ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/launch
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/launch/display.launch.py
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/config
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/config/amr_rviz.rviz
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/map
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/map/data.map
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD90.mtl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD250.mtl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/AMR_Platform.STL
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD250.obj
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD90.obj
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/param
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/param/vis_param.yaml
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/LD250.urdf
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/AMR_Platform.urdf
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/LD90.urdf
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/package_run_dependencies/amr_visualisation
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/parent_prefix_path/amr_visualisation
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.bash
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.zsh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/package.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/packages/amr_visualisation
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig-version.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/package.xml

@@ -1,0 +1,42 @@
+[ 25%] Built target joints_publisher
+[ 50%] Built target goals_marker
+[ 75%] Built target laser_scans
+[100%] Built target data_points_marker
+-- Install configuration: ""
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/joints_publisher
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/data_points_marker
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/goals_marker
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/lib/amr_visualisation/laser_scans
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/launch
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/launch/display.launch.py
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/config
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/config/amr_rviz.rviz
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/map
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/map/data.map
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD90.mtl
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD250.mtl
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/AMR_Platform.STL
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD250.obj
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/meshes/LD90.obj
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/param
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/param/vis_param.yaml
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/LD250.urdf
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/AMR_Platform.urdf
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/urdf/LD90.urdf
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/package_run_dependencies/amr_visualisation
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/parent_prefix_path/amr_visualisation
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/path.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/environment/path.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.bash
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.sh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.zsh
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/local_setup.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/package.dsv
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/ament_index/resource_index/packages/amr_visualisation
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig-version.cmake
+-- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/amr_visualisation/share/amr_visualisation/package.xml

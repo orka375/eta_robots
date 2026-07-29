@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_ur_msgs/action/SendScript_Feedback",
+      "fields": [
+        {
+          "name": "progress",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_ur_msgs/action/SendScript_Feedback",
+      "hash_string": "RIHS01_4cbae83efc8adeb709b1707fc94814059b8c1c9a388490de3e7bd497b3bcb151"
+    }
+  ]
+}

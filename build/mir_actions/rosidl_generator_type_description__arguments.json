@@ -1,0 +1,16 @@
+{
+  "package_name": "mir_actions",
+  "output_dir": "/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions/rosidl_generator_type_description/mir_actions",
+  "idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions/rosidl_adapter/mir_actions:action/MirMoveBase.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/kilted/share/geometry_msgs",
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "nav_msgs:/opt/ros/kilted/share/nav_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
+  ]
+}

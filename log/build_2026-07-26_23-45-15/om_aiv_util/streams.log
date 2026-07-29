@@ -1,0 +1,37 @@
+[0.594s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_util': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/om_aiv_util build --build-base /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build install --record /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/install.log --install-scripts $base/lib/om_aiv_util --single-version-externally-managed install_data
+[0.689s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.689s] !!
+[0.689s] 
+[0.689s]         ********************************************************************************
+[0.689s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.689s]         versions. Please use the underscore name 'script_dir' instead.
+[0.689s] 
+[0.689s]         This deprecation is overdue, please update your project and remove deprecated
+[0.689s]         calls to avoid build errors in the future.
+[0.689s] 
+[0.689s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.689s]         ********************************************************************************
+[0.689s] 
+[0.689s] !!
+[0.689s]   opt = self.warn_dash_deprecation(opt, section)
+[0.759s] running egg_info
+[0.769s] writing ../../../build/om_aiv_util/om_aiv_util.egg-info/PKG-INFO
+[0.769s] writing dependency_links to ../../../build/om_aiv_util/om_aiv_util.egg-info/dependency_links.txt
+[0.769s] writing entry points to ../../../build/om_aiv_util/om_aiv_util.egg-info/entry_points.txt
+[0.769s] writing requirements to ../../../build/om_aiv_util/om_aiv_util.egg-info/requires.txt
+[0.769s] writing top-level names to ../../../build/om_aiv_util/om_aiv_util.egg-info/top_level.txt
+[0.789s] reading manifest file '../../../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[0.790s] writing manifest file '../../../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[0.790s] running build
+[0.790s] running build_py
+[0.790s] running install
+[0.794s] running install_lib
+[0.804s] running install_data
+[0.804s] running install_egg_info
+[0.814s] removing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util-0.0.0-py3.12.egg-info' (and everything under it)
+[0.814s] Copying ../../../build/om_aiv_util/om_aiv_util.egg-info to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages/om_aiv_util-0.0.0-py3.12.egg-info
+[0.814s] running install_scripts
+[0.879s] Installing arcl_api_server script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/om_aiv_util
+[0.879s] Installing ld_states_publisher script to /home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/om_aiv_util
+[0.879s] writing list of installed files to '/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/install.log'
+[0.897s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_util' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_util/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/om_aiv_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/om_aiv_util build --build-base /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/build install --record /home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_util/install.log --install-scripts $base/lib/om_aiv_util --single-version-externally-managed install_data

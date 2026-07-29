@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/meca500_description/ament_cmake_core/meca500_descriptionConfig-version.cmake

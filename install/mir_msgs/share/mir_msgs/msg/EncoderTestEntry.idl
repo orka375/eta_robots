@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/EncoderTestEntry.msg
+// generated code does not contain a copyright notice
+
+
+module mir_msgs {
+  module msg {
+    struct EncoderTestEntry {
+      double command_velocity;
+
+      double command_distance;
+
+      double left_dist;
+
+      double right_dist;
+
+      string suggested_direction;
+
+      string user_direction;
+    };
+  };
+};

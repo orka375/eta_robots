@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_poly_scope_version__rosidl_typesupport_fastrtps_c.h

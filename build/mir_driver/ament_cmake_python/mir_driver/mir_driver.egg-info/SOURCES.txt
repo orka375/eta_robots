@@ -1,0 +1,7 @@
+setup.py
+mir_driver/__init__.py
+mir_driver/rosbridge.py
+mir_driver.egg-info/PKG-INFO
+mir_driver.egg-info/SOURCES.txt
+mir_driver.egg-info/dependency_links.txt
+mir_driver.egg-info/top_level.txt

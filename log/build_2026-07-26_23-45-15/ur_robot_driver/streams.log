@@ -1,0 +1,101 @@
+[0.019s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver
+[0.051s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.146s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.158s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.223s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.224s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.226s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.396s] -- Found controller_manager: 5.14.2 (/opt/ros/kilted/share/controller_manager/cmake)
+[0.421s] -- Found rosidl_generator_c: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[0.429s] -- Found rosidl_generator_cpp: 4.9.6 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[0.441s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.503s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[0.505s] -- Found rmw_fastrtps_cpp: 9.3.4 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[0.558s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.637s] [0mCMake Deprecation Warning at /opt/ros/kilted/share/tl_expected/cmake/tl_expectedConfig.cmake:37 (message):
+[0.637s]   Package 'tl_expected' is deprecated (This package will be removed in ROS 2
+[0.637s]   Lyrical Luth.
+[0.637s] 
+[0.638s]         Use tl/expected.hpp from libexpected-dev,
+[0.638s]         or rcpputils/tl_expected/expected.hpp if the system header is not available)
+[0.638s] Call Stack (most recent call first):
+[0.638s]   /opt/ros/kilted/share/parameter_traits/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.638s]   /opt/ros/kilted/share/parameter_traits/cmake/parameter_traitsConfig.cmake:41 (include)
+[0.638s]   /opt/ros/kilted/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.638s]   /opt/ros/kilted/share/controller_manager/cmake/controller_managerConfig.cmake:41 (include)
+[0.638s]   CMakeLists.txt:35 (find_package)
+[0.638s] 
+[0.638s] [0m
+[0.923s] -- Found std_srvs: 5.5.2 (/opt/ros/kilted/share/std_srvs/cmake)
+[0.932s] -- Found tf2_geometry_msgs: 0.41.7 (/opt/ros/kilted/share/tf2_geometry_msgs/cmake)
+[0.937s] -- Found eigen3_cmake_module: 0.4.0 (/opt/ros/kilted/share/eigen3_cmake_module/cmake)
+[0.938s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.938s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.980s] -- Found ur_dashboard_msgs: 4.8.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.005s] -- Found ur_msgs: 2.6.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/share/ur_msgs/cmake)
+[1.034s] -- Found my_ur_msgs: 0.0.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/share/my_ur_msgs/cmake)
+[1.046s] -- Found motion_primitives_controllers: 5.15.1 (/opt/ros/kilted/share/motion_primitives_controllers/cmake)
+[1.208s] -- Found ur_controllers: 4.8.0 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake)
+[1.290s] -- Found ur_description: 4.3.1 (/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description/share/ur_description/cmake)
+[1.291s] -- Found launch_testing_ament_cmake: 3.8.7 (/opt/ros/kilted/share/launch_testing_ament_cmake/cmake)
+[1.292s] -- Configuring done (1.3s)
+[1.320s] -- Generating done (0.0s)
+[1.328s] -- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver
+[1.338s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_robot_driver
+[1.341s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver -- -j14 -l14
+[1.379s] [ 28%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o[0m
+[1.379s] [ 28%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o[0m
+[1.379s] [ 28%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[1.379s] [ 28%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[1.380s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_log_handler.dir/src/urcl_log_handler.cpp.o[0m
+[1.380s] [ 28%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[1.380s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[1.380s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[1.382s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o[0m
+[1.387s] [ 47%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[1.392s] [ 52%] [32mBuilding CXX object CMakeFiles/trajectory_until_node.dir/src/trajectory_until_node.cpp.o[0m
+[1.393s] [ 52%] Built target ament_cmake_python_copy_ur_robot_driver
+[1.398s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[1.402s] [ 61%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[1.521s] running egg_info
+[1.522s] creating ur_robot_driver.egg-info
+[1.532s] writing ur_robot_driver.egg-info/PKG-INFO
+[1.532s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[1.533s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[1.533s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.575s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.575s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.594s] [ 61%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[1.610s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[1.977s] [ 71%] [32m[1mLinking CXX shared library libur_robot_driver_log_handler.so[0m
+[2.104s] [ 71%] Built target ur_robot_driver_log_handler
+[4.284s] [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver/src/urscript_interface.cpp:[m[K In member function ‘[01m[Kvoid URScriptInterface::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_ur_msgs::action::SendScript> >)[m[K’:
+[4.284s] [01m[K/home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_robot_driver/src/urscript_interface.cpp:160:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass urcl::primary_interface::PrimaryClient[m[K’ has no member named ‘[01m[KsendScriptBlocking[m[K’
+[4.284s]   160 |       primary_client_->[01;31m[KsendScriptBlocking[m[K(goal->program, goal->script_name, chrono_timeout, goal->fail_on_warnings,
+[4.285s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.267s] gmake[2]: *** [CMakeFiles/urscript_interface.dir/build.make:76: CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o] Error 1
+[6.268s] gmake[1]: *** [CMakeFiles/Makefile2:282: CMakeFiles/urscript_interface.dir/all] Error 2
+[6.268s] gmake[1]: *** Waiting for unfinished jobs....
+[8.555s] [ 76%] [32m[1mLinking CXX executable trajectory_until_node[0m
+[8.737s] [ 76%] Built target trajectory_until_node
+[11.959s] [ 80%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[12.158s] [ 80%] Built target controller_stopper_node
+[19.991s] [ 85%] [32m[1mLinking CXX executable robot_state_helper[0m
+[20.351s] [ 85%] Built target robot_state_helper
+[26.058s] [ 90%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[26.528s] [ 90%] Built target ur_robot_driver_plugin
+[27.114s] [ 95%] [32m[1mLinking CXX executable dashboard_client[0m
+[27.476s] [ 95%] Built target dashboard_client
+[27.477s] gmake: *** [Makefile:146: all] Error 2
+[27.479s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver' returned '2': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_description:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_robot_driver -- -j14 -l14

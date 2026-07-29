@@ -1,0 +1,32 @@
+[0.023s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_moveit_config
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.292s] -- The CXX compiler identification is GNU 13.3.0
+[0.307s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.386s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.457s] -- Detecting CXX compile features
+[0.457s] -- Detecting CXX compile features - done
+[0.463s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.463s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.463s]   has asked CMake to find a package configuration file provided by
+[0.463s]   "ament_cmake", but CMake did not find one.
+[0.463s] 
+[0.463s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.463s]   any of the following names:
+[0.463s] 
+[0.464s]     ament_cmakeConfig.cmake
+[0.464s]     ament_cmake-config.cmake
+[0.464s] 
+[0.464s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.465s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.465s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.465s]   has been installed.
+[0.465s] 
+[0.465s] [0m
+[0.466s] -- Configuring incomplete, errors occurred!
+[0.471s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_moveit_config' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_moveit_config

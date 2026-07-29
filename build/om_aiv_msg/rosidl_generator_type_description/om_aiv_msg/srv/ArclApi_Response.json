@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "om_aiv_msg/srv/ArclApi_Response",
+      "fields": [
+        {
+          "name": "response",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "om_aiv_msg/srv/ArclApi_Response",
+      "hash_string": "RIHS01_feeb2d9e1fdd71b433c331e57ce95ab45f3ba2b0d05b02e36dbafc587ddaba5d"
+    }
+  ]
+}

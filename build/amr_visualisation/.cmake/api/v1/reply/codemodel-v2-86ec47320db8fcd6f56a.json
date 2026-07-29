@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-002d3f73bb61f3fa234d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "amr_visualisation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "amr_visualisation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-amr_visualisation_uninstall-71c33e8a2dd86b9952fc.json",
+					"name" : "amr_visualisation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "data_points_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-data_points_marker-8f746e82b1ded3c05a32.json",
+					"name" : "data_points_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "goals_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-goals_marker-b23a02d3c54708be1b29.json",
+					"name" : "goals_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joints_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joints_publisher-f010539d8f39bb1a7195.json",
+					"name" : "joints_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scans::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scans-cfe961614e162289cfae.json",
+					"name" : "laser_scans",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6a073d1bdd39cea5fbc0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/amr_visualisation",
+		"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/amr_visualisation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

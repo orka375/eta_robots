@@ -1,0 +1,32 @@
+[0.022s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0
+[0.185s] -- The C compiler identification is GNU 13.3.0
+[0.301s] -- The CXX compiler identification is GNU 13.3.0
+[0.314s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.395s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.465s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.475s] -- Configuring incomplete, errors occurred!
+[0.475s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.475s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.475s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.475s]   CMake did not find one.
+[0.476s] 
+[0.476s]   Could not find a package configuration file provided by "catkin" with any
+[0.476s]   of the following names:
+[0.476s] 
+[0.476s]     catkinConfig.cmake
+[0.476s]     catkin-config.cmake
+[0.476s] 
+[0.476s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.476s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.476s]   provides a separate development package or SDK, be sure it has been
+[0.476s]   installed.
+[0.476s] 
+[0.476s] [0m
+[0.480s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/sdc21x0 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/sdc21x0

@@ -1,0 +1,13 @@
+{
+  "package_name": "my_ur_msgs",
+  "output_dir": "/home/administrator/Masterproject2/20_ROS/src/Robots/build/my_ur_msgs/rosidl_generator_type_description/my_ur_msgs",
+  "idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/my_ur_msgs/rosidl_adapter/my_ur_msgs:action/SendScript.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
+  ]
+}

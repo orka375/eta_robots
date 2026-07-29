@@ -1,0 +1,17 @@
+{
+  "package_name": "om_aiv_msg",
+  "output_dir": "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_generator_type_description/om_aiv_msg",
+  "idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:msg/Location.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:msg/Status.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:srv/ArclApi.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:srv/ArclListen.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:action/Action.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
+  ]
+}

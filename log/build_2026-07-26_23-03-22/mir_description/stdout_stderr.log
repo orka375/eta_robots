@@ -1,0 +1,48 @@
+-- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_description
+-- Install configuration: ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/config
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/config/joint_state_controller.yaml
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/config/diffdrive_controller.yaml
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/launch
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/launch/upload_mir_urdf.launch
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/launch/mir_debug_urdf.launch
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/visual
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/visual/wheel.stl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/visual/sick_lms-100.stl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/visual/mir_100_base.stl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/visual/caster_wheel_base.stl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/collision
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/collision/mir_100_base.stl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/meshes/collision/caster_wheel_base.stl
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/rviz
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/rviz/mir_description.rviz
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/mir_100_v1.urdf.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/sick_s300.urdf.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/mir_100.transmission.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/imu.gazebo.urdf.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/common_properties.urdf.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/mir_100.gazebo.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/include/common.gazebo.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/urdf/mir.urdf.xacro
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/ament_index/resource_index/package_run_dependencies/mir_description
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/ament_index/resource_index/parent_prefix_path/mir_description
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/environment/ament_prefix_path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/environment/ament_prefix_path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/environment/path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/environment/path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/local_setup.bash
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/local_setup.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/local_setup.zsh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/local_setup.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/ament_index/resource_index/packages/mir_description
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/cmake/mir_descriptionConfig.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/cmake/mir_descriptionConfig-version.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_description/share/mir_description/package.xml

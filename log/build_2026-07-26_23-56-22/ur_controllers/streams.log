@@ -1,0 +1,146 @@
+[0.026s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers -- -j14 -l14
+[0.120s] [  7%] Built target speed_scaling_state_broadcaster_parameters
+[0.120s] [ 10%] Built target tool_contact_controller_parameters
+[0.122s] [ 15%] Built target friction_model_controller_parameters
+[0.130s] [ 20%] Built target scaled_joint_trajectory_controller_parameters
+[0.134s] [ 25%] Built target gmock_main
+[0.137s] [ 30%] Built target passthrough_trajectory_controller_parameters
+[0.144s] [ 41%] Built target gmock
+[0.144s] [ 43%] Built target ur_configuration_controller_parameters
+[0.150s] [ 48%] Built target freedrive_mode_controller_parameters
+[0.156s] [ 53%] Built target force_mode_controller_parameters
+[0.156s] [ 58%] Built target gravity_update_controller_parameters
+[0.247s] [ 84%] Built target ur_controllers
+[0.278s] [ 89%] Built target test_load_freedrive_mode_controller
+[0.284s] [ 94%] Built target test_load_force_mode_controller
+[0.338s] [100%] Built target test_load_friction_model_controller
+[0.352s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers -- -j14 -l14
+[0.353s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers
+[0.360s] -- Install configuration: ""
+[0.360s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.361s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.362s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.363s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.364s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.368s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.369s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.370s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.370s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.370s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.370s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.371s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/lib/libur_controllers.so
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/friction_model_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/include/ur_controllers/gravity_update_controller.hpp
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/environment/path.sh
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[0.372s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/local_setup.bash
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/local_setup.sh
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[0.373s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/package.dsv
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[0.373s] -- Up-to-date: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_controllers/share/ur_controllers/package.xml
+[0.373s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs/lib/python3.12/site-packages:/home/administrator/Masterproject2/20_ROS/src/Robots/install/my_ur_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_controllers

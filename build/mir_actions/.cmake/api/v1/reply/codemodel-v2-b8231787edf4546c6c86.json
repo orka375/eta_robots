@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc88845b14d7e7654cc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "mir_actions__py",
+					"jsonFile" : "directory-mir_actions__py-2f129c08cb682d040344.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions/mir_actions__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "mir_actions__rs",
+					"jsonFile" : "directory-mir_actions__rs-d4d79623302662613751.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions/mir_actions__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "mir_actions",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mir_actions_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mir_actions_egg-afc8ea2d5cc7e9b90dcd.json",
+					"name" : "ament_cmake_python_build_mir_actions_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mir_actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mir_actions-c4898b68d9d37f59d255.json",
+					"name" : "ament_cmake_python_copy_mir_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions-7a82e0e2cd1c959e4de8.json",
+					"name" : "mir_actions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__cpp-3eb0c91c4be2125fe8cf.json",
+					"name" : "mir_actions__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mir_actions__py::@d2ce85279360dfd30812",
+					"jsonFile" : "target-mir_actions__py-d8b91e43ffd52fa7aa02.json",
+					"name" : "mir_actions__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_generator_c-b20defac78f3d187f7e3.json",
+					"name" : "mir_actions__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_generator_py-e8b5fe2498361acb96d8.json",
+					"name" : "mir_actions__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_generator_type_description-b2686b9b92321520d2da.json",
+					"name" : "mir_actions__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_typesupport_c-9b3891e369474729c511.json",
+					"name" : "mir_actions__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_typesupport_cpp-27ea3692f076f432c500.json",
+					"name" : "mir_actions__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_typesupport_fastrtps_c-fda5310e69bfa808bb5f.json",
+					"name" : "mir_actions__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_typesupport_fastrtps_cpp-ccd2638927e31f9b5285.json",
+					"name" : "mir_actions__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_typesupport_introspection_c-bf20cebfdbda78f38535.json",
+					"name" : "mir_actions__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions__rosidl_typesupport_introspection_cpp-9a05c60d2b73c653805f.json",
+					"name" : "mir_actions__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mir_actions__rs::@4701496080ad927a982d",
+					"jsonFile" : "target-mir_actions__rs-b2e2f6d4eb972d39e2c4.json",
+					"name" : "mir_actions__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions_s__rosidl_typesupport_c-8547a53420b60db3f92d.json",
+					"name" : "mir_actions_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions_s__rosidl_typesupport_fastrtps_c-5304e286f20ea4a40922.json",
+					"name" : "mir_actions_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions_s__rosidl_typesupport_introspection_c-a7d5434d63f8cab9d79a.json",
+					"name" : "mir_actions_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mir_actions_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mir_actions_uninstall-6ccd8c4a4ee3d01a5700.json",
+					"name" : "mir_actions_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-626a57cbaa882a93ee48.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_actions",
+		"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_actions"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "package_name": "om_aiv_msg",
+  "non_idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg:msg/Location.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg:msg/Status.msg",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg:srv/ArclApi.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg:srv/ArclListen.srv",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/Omron_AMR/src/om_aiv_msg:action/Action.action"
+  ]
+}

@@ -1,0 +1,5 @@
+[33mCMake Warning at CMakeLists.txt:81 (message):
+  Skipping mir_dwb_critics plugin library build because required dependencies
+  are not available in this environment.
+
+[0m

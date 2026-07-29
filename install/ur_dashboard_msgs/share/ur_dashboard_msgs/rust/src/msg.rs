@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs/rosidl_generator_rs/ur_dashboard_msgs/rust/src/msg.rs

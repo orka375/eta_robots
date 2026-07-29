@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "om_aiv_msg/srv/ArclListen_Response",
+      "fields": [
+        {
+          "name": "resp_text",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "om_aiv_msg/srv/ArclListen_Response",
+      "hash_string": "RIHS01_a43948b6e68f1526740250fde0317598a2f449495745f2d65cefbf5872f48d0f"
+    }
+  ]
+}

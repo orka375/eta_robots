@@ -1,0 +1,1 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_description/launch/view_robot.launch.py

@@ -1,0 +1,17 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/launch/meca500.launch.py
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/config/meca500_controllers.yaml
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/ament_index/resource_index/package_run_dependencies/meca500_bringup
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/ament_index/resource_index/parent_prefix_path/meca500_bringup
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/environment/ament_prefix_path.sh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/environment/ament_prefix_path.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/environment/path.sh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/environment/path.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/local_setup.bash
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/local_setup.sh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/local_setup.zsh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/local_setup.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/package.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/ament_index/resource_index/packages/meca500_bringup
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/cmake/meca500_bringupConfig.cmake
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/cmake/meca500_bringupConfig-version.cmake
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/meca500_bringup/share/meca500_bringup/package.xml

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "sdc21x0/srv/Flags_Request",
+      "fields": [
+        {
+          "name": "digital_port",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "sdc21x0/srv/Flags_Request",
+      "hash_string": "RIHS01_6b51f4c17dba7fb63b14c8223c8a7d2a431640f674fcfa5d3c7e01d42aaf8035"
+    }
+  ]
+}

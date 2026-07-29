@@ -1,0 +1,45 @@
+Built target ament_cmake_python_copy_mir_driver
+running egg_info
+creating mir_driver.egg-info
+writing mir_driver.egg-info/PKG-INFO
+writing dependency_links to mir_driver.egg-info/dependency_links.txt
+writing top-level names to mir_driver.egg-info/top_level.txt
+writing manifest file 'mir_driver.egg-info/SOURCES.txt'
+reading manifest file 'mir_driver.egg-info/SOURCES.txt'
+writing manifest file 'mir_driver.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_mir_driver_egg
+-- Install configuration: ""
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/environment/pythonpath.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/environment/pythonpath.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver-1.1.3-py3.12.egg-info
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver-1.1.3-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver-1.1.3-py3.12.egg-info/top_level.txt
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver-1.1.3-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver-1.1.3-py3.12.egg-info/PKG-INFO
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver/__init__.py
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver/rosbridge.py
+Listing '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver'...
+Compiling '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver/__init__.py'...
+Compiling '/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/python3.12/site-packages/mir_driver/rosbridge.py'...
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/mir_driver/fake_mir_joint_publisher.py
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/mir_driver/mir_bridge.py
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/mir_driver/rep117_filter.py
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/lib/mir_driver/tf_remove_child_frames.py
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/launch
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/launch/mir.launch
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/ament_index/resource_index/package_run_dependencies/mir_driver
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/ament_index/resource_index/parent_prefix_path/mir_driver
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/environment/ament_prefix_path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/environment/path.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/environment/path.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/local_setup.bash
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/local_setup.sh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/local_setup.zsh
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/local_setup.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/package.dsv
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/ament_index/resource_index/packages/mir_driver
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/cmake/mir_driverConfig.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/cmake/mir_driverConfig-version.cmake
+-- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_driver/share/mir_driver/package.xml

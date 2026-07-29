@@ -1,0 +1,6 @@
+{
+  "package_name": "mir_actions",
+  "non_idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_actions:action/MirMoveBase.action"
+  ]
+}

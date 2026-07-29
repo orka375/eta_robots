@@ -1,0 +1,15 @@
+{
+  "package_name": "sdc21x0",
+  "output_dir": "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/rosidl_generator_type_description/sdc21x0",
+  "idl_tuples": [
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/rosidl_adapter/sdc21x0:msg/Encoders.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/rosidl_adapter/sdc21x0:msg/MotorCurrents.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/rosidl_adapter/sdc21x0:msg/StampedEncoders.idl",
+    "/home/administrator/Masterproject2/20_ROS/src/Robots/build/sdc21x0/rosidl_adapter/sdc21x0:srv/Flags.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/kilted/share/std_msgs",
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "service_msgs:/opt/ros/kilted/share/service_msgs"
+  ]
+}

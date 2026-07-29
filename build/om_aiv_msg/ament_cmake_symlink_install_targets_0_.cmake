@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/rosidl_generator_py/om_aiv_msg/om_aiv_msg_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "om_aiv_msg_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/om_aiv_msg")

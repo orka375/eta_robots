@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware" FILES "/home/administrator/Masterproject2/20_ROS/src/Robots/Mecademic/meca500_hardware/package.xml" "DESTINATION" "share/meca500_hardware")

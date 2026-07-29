@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "om_aiv_msg__rs",
+		"source" : "/home/administrator/Masterproject2/20_ROS/src/Robots/build/om_aiv_msg/om_aiv_msg__rs"
+	}
+}

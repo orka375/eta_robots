@@ -1,0 +1,31 @@
+[0.023s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/mir_dwb_critics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/MIR/mir_dwb_critics -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_dwb_critics
+[0.183s] -- The C compiler identification is GNU 13.3.0
+[0.301s] -- The CXX compiler identification is GNU 13.3.0
+[0.311s] -- Detecting C compiler ABI info
+[0.391s] -- Detecting C compiler ABI info - done
+[0.413s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.428s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.507s] -- Detecting CXX compile features
+[0.508s] -- Detecting CXX compile features - done
+[0.514s] -- Configuring incomplete, errors occurred!
+[0.514s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.514s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.514s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.514s]   CMake did not find one.
+[0.514s] 
+[0.514s]   Could not find a package configuration file provided by "catkin" with any
+[0.514s]   of the following names:
+[0.514s] 
+[0.514s]     catkinConfig.cmake
+[0.514s]     catkin-config.cmake
+[0.514s] 
+[0.514s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.514s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.514s]   provides a separate development package or SDK, be sure it has been
+[0.514s]   installed.
+[0.514s] 
+[0.514s] [0m

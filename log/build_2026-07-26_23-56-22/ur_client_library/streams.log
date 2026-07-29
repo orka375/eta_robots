@@ -1,0 +1,224 @@
+[0.026s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ClientLibrary -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.154s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.427s] -- Detecting CXX compile features - done
+[0.427s] [0mur_client_library: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.559s] -- Found Threads: TRUE  
+[0.559s] -- Building tests disabled.
+[0.559s] -- Configuring done (0.5s)
+[0.589s] -- Generating done (0.0s)
+[0.599s] -- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library
+[0.712s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ClientLibrary -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library
+[0.718s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library -- -j14 -l14
+[0.854s] [  1%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/types.cpp.o[0m
+[0.854s] [  3%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/reverse_interface.cpp.o[0m
+[0.854s] [  3%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_socket.cpp.o[0m
+[0.854s] [  4%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/motion_primitives.cpp.o[0m
+[0.854s] [  6%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/comm/tcp_server.cpp.o[0m
+[0.854s] [  7%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_reader.cpp.o[0m
+[0.855s] [  8%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_sender.cpp.o[0m
+[0.855s] [  9%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/trajectory_point_interface.cpp.o[0m
+[0.855s] [ 10%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_client.cpp.o[0m
+[0.855s] [ 12%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/control/script_command_interface.cpp.o[0m
+[0.855s] [ 13%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/error_code_message.cpp.o[0m
+[0.855s] [ 14%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/primary_package.cpp.o[0m
+[0.855s] [ 15%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/key_message.cpp.o[0m
+[0.855s] [ 16%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message.cpp.o[0m
+[1.347s] [ 18%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/runtime_exception_message.cpp.o[0m
+[1.390s] [ 19%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/text_message.cpp.o[0m
+[1.464s] [ 20%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/version_message.cpp.o[0m
+[1.464s] [ 21%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_message/safety_mode_message.cpp.o[0m
+[1.580s] [ 22%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state.cpp.o[0m
+[1.641s] [ 24%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/kinematics_info.cpp.o[0m
+[1.704s] [ 25%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/robot_mode_data.cpp.o[0m
+[1.987s] [ 26%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/configuration_data.cpp.o[0m
+[2.036s] [ 27%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/primary/robot_state/masterboard_data.cpp.o[0m
+[2.079s] [ 28%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_pause.cpp.o[0m
+[2.226s] [ 30%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_inputs.cpp.o[0m
+[2.242s] [ 31%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_setup_outputs.cpp.o[0m
+[2.393s] [ 32%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/control_package_start.cpp.o[0m
+[2.418s] [ 33%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/data_package.cpp.o[0m
+[2.451s] [ 34%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/get_urcontrol_version.cpp.o[0m
+[2.740s] [ 36%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/request_protocol_version.cpp.o[0m
+[2.910s] [ 37%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_package.cpp.o[0m
+[2.930s] [ 38%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_parser.cpp.o[0m
+[2.992s] [ 39%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/text_message.cpp.o[0m
+[3.081s] [ 40%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_client.cpp.o[0m
+[3.186s] [ 42%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/ur_driver.cpp.o[0m
+[3.253s] [ 43%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/calibration_checker.cpp.o[0m
+[3.306s] [ 44%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client.cpp.o[0m
+[3.322s] [ 45%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client_implementation_g5.cpp.o[0m
+[3.345s] [ 46%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/dashboard_client_implementation_x.cpp.o[0m
+[3.361s] [ 48%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/instruction_executor.cpp.o[0m
+[3.663s] [ 49%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/tool_communication.cpp.o[0m
+[3.677s] [ 50%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/robot_receive_timeout.cpp.o[0m
+[4.005s] [ 51%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/rtde/rtde_writer.cpp.o[0m
+[4.008s] [ 53%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/ur/version_information.cpp.o[0m
+[4.788s] [ 54%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/default_log_handler.cpp.o[0m
+[4.878s] [ 55%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/example_robot_wrapper.cpp.o[0m
+[5.110s] [ 56%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/log.cpp.o[0m
+[5.178s] [ 57%] [32mBuilding CXX object CMakeFiles/urcl.dir/src/helpers.cpp.o[0m
+[17.400s] [ 59%] [32m[1mLinking CXX shared library liburcl.so[0m
+[17.639s] [ 59%] Built target urcl
+[17.652s] [ 62%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_calibration_example.dir/primary_pipeline_calibration.cpp.o[0m
+[17.652s] [ 62%] [32mBuilding CXX object examples/CMakeFiles/primary_pipeline_example.dir/primary_pipeline.cpp.o[0m
+[17.652s] [ 62%] [32mBuilding CXX object examples/CMakeFiles/send_script.dir/send_script.cpp.o[0m
+[17.652s] [ 63%] [32mBuilding CXX object examples/CMakeFiles/tool_contact_example.dir/tool_contact_example.cpp.o[0m
+[17.655s] [ 65%] [32mBuilding CXX object examples/CMakeFiles/driver_example.dir/full_driver.cpp.o[0m
+[17.655s] [ 66%] [32mBuilding CXX object examples/CMakeFiles/dashboard_example.dir/dashboard_example.cpp.o[0m
+[17.655s] [ 67%] [32mBuilding CXX object examples/CMakeFiles/script_sender_example.dir/script_sender.cpp.o[0m
+[17.655s] [ 68%] [32mBuilding CXX object examples/CMakeFiles/force_mode_example.dir/force_mode_example.cpp.o[0m
+[17.659s] [ 69%] [32mBuilding CXX object examples/CMakeFiles/freedrive_example.dir/freedrive_example.cpp.o[0m
+[17.661s] [ 71%] [32mBuilding CXX object examples/CMakeFiles/script_command_interface_example.dir/script_command_interface.cpp.o[0m
+[17.664s] [ 72%] [32mBuilding CXX object examples/CMakeFiles/spline_example.dir/spline_example.cpp.o[0m
+[17.665s] [ 73%] [32mBuilding CXX object examples/CMakeFiles/direct_torque_control_example.dir/direct_torque_control.cpp.o[0m
+[17.674s] [ 74%] [32mBuilding CXX object examples/CMakeFiles/rtde_client_example.dir/rtde_client.cpp.o[0m
+[17.688s] [ 75%] [32mBuilding CXX object examples/CMakeFiles/trajectory_point_interface_example.dir/trajectory_point_interface.cpp.o[0m
+[18.199s] [ 77%] [32m[1mLinking CXX executable script_sender_example[0m
+[18.315s] [ 77%] Built target script_sender_example
+[18.340s] [ 78%] [32mBuilding CXX object examples/CMakeFiles/trajectory_streaming_example.dir/trajectory_streaming.cpp.o[0m
+[18.357s] [ 79%] [32m[1mLinking CXX executable dashboard_example[0m
+[18.447s] [ 79%] Built target dashboard_example
+[18.474s] [ 80%] [32mBuilding CXX object examples/CMakeFiles/instruction_executor.dir/instruction_executor.cpp.o[0m
+[18.516s] [ 81%] [32m[1mLinking CXX executable send_script[0m
+[18.635s] [ 81%] Built target send_script
+[18.660s] [ 83%] [32mBuilding CXX object examples/CMakeFiles/external_fts_through_rtde.dir/external_fts_through_rtde.cpp.o[0m
+[18.774s] [ 84%] [32m[1mLinking CXX executable force_mode_example[0m
+[18.880s] [ 84%] Built target force_mode_example
+[18.949s] [ 85%] [32m[1mLinking CXX executable primary_pipeline_example[0m
+[18.991s] [ 86%] [32m[1mLinking CXX executable primary_pipeline_calibration_example[0m
+[19.133s] [ 87%] [32m[1mLinking CXX executable driver_example[0m
+[19.146s] [ 87%] Built target primary_pipeline_example
+[19.148s] [ 89%] [32m[1mLinking CXX executable spline_example[0m
+[19.155s] [ 89%] Built target primary_pipeline_calibration_example
+[19.159s] [ 90%] [32m[1mLinking CXX executable direct_torque_control_example[0m
+[19.185s] [ 91%] [32m[1mLinking CXX executable freedrive_example[0m
+[19.203s] [ 92%] [32m[1mLinking CXX executable tool_contact_example[0m
+[19.248s] [ 92%] Built target spline_example
+[19.254s] [ 92%] Built target driver_example
+[19.281s] [ 92%] Built target freedrive_example
+[19.295s] [ 92%] Built target tool_contact_example
+[19.303s] [ 92%] Built target direct_torque_control_example
+[19.475s] [ 93%] [32m[1mLinking CXX executable script_command_interface_example[0m
+[19.542s] [ 95%] [32m[1mLinking CXX executable rtde_client_example[0m
+[19.547s] [ 95%] Built target script_command_interface_example
+[19.608s] [ 95%] Built target rtde_client_example
+[19.815s] [ 96%] [32m[1mLinking CXX executable trajectory_streaming_example[0m
+[19.879s] [ 96%] Built target trajectory_streaming_example
+[19.912s] [ 97%] [32m[1mLinking CXX executable trajectory_point_interface_example[0m
+[19.970s] [ 98%] [32m[1mLinking CXX executable external_fts_through_rtde[0m
+[19.988s] [ 98%] Built target trajectory_point_interface_example
+[20.037s] [ 98%] Built target external_fts_through_rtde
+[20.103s] [100%] [32m[1mLinking CXX executable instruction_executor[0m
+[20.166s] [100%] Built target instruction_executor
+[20.175s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library -- -j14 -l14
+[20.176s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library
+[20.181s] -- Install configuration: "RelWithDebInfo"
+[20.181s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/liburcl.so
+[20.194s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include
+[20.194s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/urcl_3rdparty
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/urcl_3rdparty/portable_endian.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/default_log_handler.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control/script_reader.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control/script_sender.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control/reverse_interface.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control/motion_primitives.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/control/script_command_interface.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/types.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/helpers.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/tcp_server.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/bin_parser.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/package.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/stream.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/socket_t.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h
+[20.195s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/package_serializer.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/pipeline.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/producer.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/control_mode.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/comm/parser.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/text_message.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/.clang-tidy
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/data_package.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/package_header.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/exceptions.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/log.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/dashboard_client_implementation.h
+[20.196s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/datatypes.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/robot_receive_timeout.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/dashboard_client_implementation_g5.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/version_information.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/dashboard_client_implementation_x.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/instruction_executor.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/ur_driver.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/ur/tool_communication.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/example_robot_wrapper.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/primary_client.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/.clang-tidy
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_state
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_state/configuration_data.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_state/masterboard_data.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_state/robot_mode_data.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/package_header.h
+[20.197s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message/text_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message/key_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message/error_code_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message/runtime_exception_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_message/safety_mode_message.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/primary_parser.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/robot_state.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/primary_package.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/primary/primary_consumer.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/queue
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/queue/LICENSE.md
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/queue/.clang-tidy
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/include/ur_client_library/queue/atomicops.h
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-relwithdebinfo.cmake
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/ur_client_library/start_ursim.sh
+[20.198s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/ur_client_library/tool_communication.py
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/share/ur_client_library/package.xml
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/share/ur_client_library/resources
+[20.199s] -- Installing: /home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_client_library/share/ur_client_library/resources/external_control.urscript
+[20.200s] Invoked command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_client_library

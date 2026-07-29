@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_msgs/srv/SetGravity.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3Stamped.idl"
+
+module ur_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "The direction of the gravity experienced by the robot, pointing towards the earth’s centre." "\n"
+      "The UR Robot driver will transform this to the robot frame automatically")
+    struct SetGravity_Request {
+      geometry_msgs::msg::Vector3Stamped gravity;
+    };
+    struct SetGravity_Response {
+      boolean success;
+
+      string status;
+    };
+  };
+};

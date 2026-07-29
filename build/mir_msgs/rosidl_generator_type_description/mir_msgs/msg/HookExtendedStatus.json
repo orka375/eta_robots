@@ -1,0 +1,134 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/HookExtendedStatus",
+      "fields": [
+        {
+          "name": "available",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "brake",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mir_msgs/msg/BrakeState"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "gripper",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mir_msgs/msg/GripperState"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "height",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mir_msgs/msg/HeightState"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "angle",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "qr_marker_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "mir_msgs/msg/BrakeState",
+        "fields": [
+          {
+            "name": "state",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "mir_msgs/msg/GripperState",
+        "fields": [
+          {
+            "name": "state",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "mir_msgs/msg/HeightState",
+        "fields": [
+          {
+            "name": "state",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/HookExtendedStatus",
+      "hash_string": "RIHS01_dc12433157e630763344954c5fa5e657da1c94dc4739ab5036ffe5a22028b6f3"
+    },
+    {
+      "type_name": "mir_msgs/msg/BrakeState",
+      "hash_string": "RIHS01_5c10f04d4b1d7ef3c25fc38615b2e24ca6a1e1589ec6f3f140da256c51ccbf89"
+    },
+    {
+      "type_name": "mir_msgs/msg/GripperState",
+      "hash_string": "RIHS01_5ddfff174024b2fd184163dd224d143e66098854f25c467ec4fc0aba12b9d252"
+    },
+    {
+      "type_name": "mir_msgs/msg/HeightState",
+      "hash_string": "RIHS01_4b2715c8d477622d8572b7e4da3bde089659e6c9d535c6ca9bc0f4834dffd7fd"
+    }
+  ]
+}

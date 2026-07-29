@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/administrator/Masterproject2/20_ROS/src/Robots/UR_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/administrator/Masterproject2/20_ROS/src/Robots/install/ur_dashboard_msgs
+[0.031s] -- Found ament_cmake: 2.7.5 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.128s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found rosidl_default_generators: 1.7.2 (/opt/ros/kilted/share/rosidl_default_generators/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rosidl_adapter: 4.9.6 (/opt/ros/kilted/share/rosidl_adapter/cmake)
+[0.280s] -- Found action_msgs: 2.3.2 (/opt/ros/kilted/share/action_msgs/cmake)
+[0.840s] -- Found ament_cmake_ros_core: 0.14.7 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)
+[1.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.854s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.930s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.941s] -- Configuring done (1.9s)
+[2.022s] -- Generating done (0.1s)
+[2.030s] -- Build files have been written to: /home/administrator/Masterproject2/20_ROS/src/Robots/build/ur_dashboard_msgs

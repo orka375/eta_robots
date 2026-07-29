@@ -1,0 +1,15 @@
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/ament_index/resource_index/package_run_dependencies/mir_robot
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/ament_index/resource_index/parent_prefix_path/mir_robot
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/environment/ament_prefix_path.sh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/environment/ament_prefix_path.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/environment/path.sh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/environment/path.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/local_setup.bash
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/local_setup.sh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/local_setup.zsh
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/local_setup.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/package.dsv
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/ament_index/resource_index/packages/mir_robot
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/cmake/mir_robotConfig.cmake
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/cmake/mir_robotConfig-version.cmake
+/home/administrator/Masterproject2/20_ROS/src/Robots/install/mir_robot/share/mir_robot/package.xml

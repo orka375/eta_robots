@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ur_dashboard_msgs__rosidl_generator_type_description"
+  "rosidl_generator_type_description/ur_dashboard_msgs/action/SetMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/OperationalMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/ProgramInformation.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/ProgramState.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/RobotMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/SafetyMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/SafetyStatus.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/UserRole.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/msg/VersionInformation.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/AddToLog.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/DownloadProgram.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GenerateFlightReport.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GenerateSupportFile.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetLoadedProgram.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetOperationalMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetPolyScopeVersion.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetProgramState.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetPrograms.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetRobotMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetRobotModel.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetSafetyMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetSafetyStatus.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetSerialNumber.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/GetUserRole.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/IsInRemoteControl.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/IsProgramRunning.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/IsProgramSaved.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/Load.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/Popup.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/RawRequest.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/SetOperationalMode.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/SetUserRole.json"
+  "rosidl_generator_type_description/ur_dashboard_msgs/srv/UploadProgram.json"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/ur_dashboard_msgs__rosidl_generator_type_description.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

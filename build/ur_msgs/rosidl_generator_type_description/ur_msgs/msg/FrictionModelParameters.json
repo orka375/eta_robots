@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ur_msgs/msg/FrictionModelParameters",
+      "fields": [
+        {
+          "name": "viscous_scale",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "coulomb_scale",
+          "type": {
+            "type_id": 155,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ur_msgs/msg/FrictionModelParameters",
+      "hash_string": "RIHS01_77b2bece018176a7b6429eb252ab10ad3fb2503db576ae06f217ce35475417d4"
+    }
+  ]
+}

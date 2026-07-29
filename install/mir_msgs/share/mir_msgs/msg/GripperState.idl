@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mir_msgs/msg/GripperState.msg
+// generated code does not contain a copyright notice
+
+
+module mir_msgs {
+  module msg {
+    module GripperState_Constants {
+      const uint8 LOCK_UNKNOWN = 0;
+      const uint8 LOCK_HOMING = 1;
+      const uint8 LOCK_OPEN = 2;
+      const uint8 LOCK_OPENING = 3;
+      const uint8 LOCK_CLOSED = 4;
+      const uint8 LOCK_CLOSING = 6;
+      const uint8 LOCK_ERROR = 9;
+    };
+    struct GripperState {
+      uint8 state;
+    };
+  };
+};

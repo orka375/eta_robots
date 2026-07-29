@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_msgs/action/SendScript.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module ur_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Valid script code, that should be sent to the robot. This can either be a one-liner, or a longer function definition.")
+    struct SendScript_Goal {
+      string program;
+
+      @verbatim (language="comment", text=
+        "Name for the script which will be used in various log messages. This will be ignored, if a name is already defined in the script code itself.")
+      @default (value="")
+      string script_name;
+
+      @verbatim (language="comment", text=
+        "The maximum amount of time that is allowed to pass, before the script must be confirmed to have started")
+      builtin_interfaces::msg::Duration start_timeout;
+
+      @verbatim (language="comment", text=
+        "Whether the script execution should report as failed, if the robot generates a warning during execution")
+      @default (value=TRUE)
+      boolean fail_on_warnings;
+    };
+    @verbatim (language="comment", text=
+      "Whether the script was successfully exeuted.")
+    struct SendScript_Result {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Message containing the cause of failure, if any.")
+      string message;
+    };
+    struct SendScript_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

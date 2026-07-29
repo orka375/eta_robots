@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mir_msgs/msg/Devices",
+      "fields": [
+        {
+          "name": "devices",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "mir_msgs/msg/Device"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "mir_msgs/msg/Device",
+        "fields": [
+          {
+            "name": "name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "serial",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "mir_msgs/msg/Devices",
+      "hash_string": "RIHS01_c17da7bf750fb06ffcbb99133e5eacf2dee2943b8f1cdd68c2327e31aa294b59"
+    },
+    {
+      "type_name": "mir_msgs/msg/Device",
+      "hash_string": "RIHS01_c49f2d4bcfeb6508ebb5c7954dc65c3b6d0797f8f384a79e1d9f9b6c8ba6aac8"
+    }
+  ]
+}
