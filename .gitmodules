@@ -1,18 +1,24 @@
 [submodule "UR_Driver"]
 	path = UR_Driver
 	url = https://github.com/orka375/Universal_Robots_ROS2_Driver.git
+	branch = main
 [submodule "UR_Description"]
 	path = UR_Description
 	url = https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+	branch = rolling
 [submodule "Mecademic"]
 	path = Mecademic
 	url = https://github.com/orka375/mecademic-ros.git
+	branch = main
 [submodule "Omron_AMR"]
 	path = Omron_AMR
 	url = https://github.com/orka375/Omron_AMR_ROS2.git
+	branch = master
 [submodule "MIR"]
 	path = MIR
 	url = https://github.com/orka375/mir_robot.git
+	branch = humble
 [submodule "articubot"]
 	path = articubot
 	url = https://github.com/joshnewans/articubot_one.git
+	branch = main
